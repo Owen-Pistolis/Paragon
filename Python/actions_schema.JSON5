@@ -1,0 +1,4018 @@
+{
+  "action_types": [
+    {
+      "category": "mouse_actions",
+      "subcategories": [
+        {
+          "subcategory": "mouse_clicks",
+          "actions": [
+            {
+              "action_type": "left_click",
+              "meta_information": {
+                /* Standard Properties */
+                "timestamp": "2024-11-16T10:45:32Z",
+                "sequence_order": 1,
+                "screen_context": {
+                  "visible_ui_elements": ["Button: Submit"]
+                },
+                "url_path_context": {
+                  "url": "https://example.com/form",
+                  "file_path": null
+                },
+                "element_context": {
+                  "element_type": "Button",
+                  "element_name": "Submit"
+                },
+                "application_context": {
+                  "application_name": "Google Chrome",
+                  "application_version": "v118"
+                },
+                "interaction_duration": 0.2,
+                "user_intent_inferred": {
+                  "intent": "Click submit button"
+                },
+                "previous_action_context": {
+                  "previous_action": "Filled out form fields"
+                },
+                "follow_up_action_context": {
+                  "predicted_next_action": "Form submission processing"
+                },
+                "screenshot": {
+                  "name": "Screenshot_2024-11-16_10-45-32.png",
+                  "location": "/screenshots/session123/",
+                  "action_name": "Left Click",
+                  "workflow_name": "Form Submission"
+                },
+                /* Additional Properties Specific to Left Click */
+                "click_count": 1,
+                "mouse_coordinates": {
+                  "x": 450.0,
+                  "y": 300.0
+                },
+                "modifiers": []
+              }
+            },
+            {
+              "action_type": "right_click",
+              "meta_information": {
+                /* Standard Properties */
+                "timestamp": "2024-11-16T10:46:20Z",
+                "sequence_order": 2,
+                "screen_context": {
+                  "visible_ui_elements": ["Text: 'Sample Text'"]
+                },
+                "url_path_context": {
+                  "url": "https://example.com/textpage",
+                  "file_path": null
+                },
+                "element_context": {
+                  "element_type": "Text",
+                  "element_name": "Sample Text"
+                },
+                "application_context": {
+                  "application_name": "Google Chrome",
+                  "application_version": "v118"
+                },
+                "interaction_duration": 0.5,
+                "user_intent_inferred": {
+                  "intent": "Open context menu"
+                },
+                "previous_action_context": {
+                  "previous_action": "Selected text"
+                },
+                "follow_up_action_context": {
+                  "predicted_next_action": "Click 'Copy' in context menu"
+                },
+                "screenshot": {
+                  "name": "Screenshot_2024-11-16_10-46-20.png",
+                  "location": "/screenshots/session123/",
+                  "action_name": "Right Click",
+                  "workflow_name": "Copy Text"
+                },
+                /* Additional Properties Specific to Right Click */
+                "click_count": 1,
+                "mouse_coordinates": {
+                  "x": 500.0,
+                  "y": 300.0
+                },
+                "modifiers": []
+              }
+            },
+            {
+              "action_type": "middle_click",
+              "meta_information": {
+                /* Standard Properties */
+                "timestamp": "2024-11-16T10:47:00Z",
+                "sequence_order": 3,
+                "screen_context": {
+                  "visible_ui_elements": ["Link: 'OpenAI'"]
+                },
+                "url_path_context": {
+                  "url": "https://example.com/articles",
+                  "file_path": null
+                },
+                "element_context": {
+                  "element_type": "Link",
+                  "element_name": "OpenAI"
+                },
+                "application_context": {
+                  "application_name": "Google Chrome",
+                  "application_version": "v118"
+                },
+                "interaction_duration": 0.2,
+                "user_intent_inferred": {
+                  "intent": "Open link in new tab"
+                },
+                "previous_action_context": {
+                  "previous_action": "Reading article"
+                },
+                "follow_up_action_context": {
+                  "predicted_next_action": "Switch to new tab"
+                },
+                "screenshot": {
+                  "name": "Screenshot_2024-11-16_10-47-00.png",
+                  "location": "/screenshots/session123/",
+                  "action_name": "Middle Click",
+                  "workflow_name": "Browse Articles"
+                },
+                /* Additional Properties Specific to Middle Click */
+                "click_count": 1,
+                "mouse_coordinates": {
+                  "x": 400.0,
+                  "y": 250.0
+                },
+                "modifiers": []
+              }
+            }
+          ]
+        },
+        {
+          "subcategory": "double_clicks",
+          "actions": [
+            {
+              "action_type": "double_left_click",
+              "meta_information": {
+                /* Standard Properties */
+                "timestamp": "2024-11-16T10:45:35Z",
+                "sequence_order": 4,
+                "screen_context": {
+                  "visible_ui_elements": ["File Icon: Document"]
+                },
+                "url_path_context": {
+                  "url": "file:///localdrive/documents/",
+                  "file_path": "/localdrive/documents/report.docx"
+                },
+                "element_context": {
+                  "element_type": "File Icon",
+                  "element_name": "report.docx"
+                },
+                "application_context": {
+                  "application_name": "File Explorer",
+                  "application_version": "v10.0"
+                },
+                "interaction_duration": 0.3,
+                "user_intent_inferred": {
+                  "intent": "Open document"
+                },
+                "previous_action_context": {
+                  "previous_action": "Navigated to folder"
+                },
+                "follow_up_action_context": {
+                  "predicted_next_action": "Document editing"
+                },
+                "screenshot": {
+                  "name": "Screenshot_2024-11-16_10-45-35.png",
+                  "location": "/screenshots/session123/",
+                  "action_name": "Double Left Click",
+                  "workflow_name": "Open Document"
+                },
+                /* Additional Properties Specific to Double Left Click */
+                "click_count": 2,
+                "mouse_coordinates": {
+                  "x": 520.0,
+                  "y": 410.0
+                },
+                "modifiers": []
+              }
+            }
+            /* You can add "double_right_click" and "double_middle_click" actions if needed */
+          ]
+        },
+        {
+          "subcategory": "mouse_movements",
+          "actions": [
+            {
+              "action_type": "mouse_drag",
+              "meta_information": {
+                /* Standard Properties */
+                "timestamp": "2024-11-16T10:45:40Z",
+                "sequence_order": 5,
+                "screen_context": {
+                  "visible_ui_elements": ["Icon: File1", "Folder: Destination"]
+                },
+                "url_path_context": {
+                  "url": "file:///localdrive/documents/",
+                  "file_path": "/localdrive/documents/"
+                },
+                "element_context": {
+                  "element_type": "Icon",
+                  "element_name": "File1.txt"
+                },
+                "application_context": {
+                  "application_name": "File Explorer",
+                  "application_version": "v10.0"
+                },
+                "interaction_duration": 1.5,
+                "user_intent_inferred": {
+                  "intent": "Move file to folder"
+                },
+                "previous_action_context": {
+                  "previous_action": "Selected file"
+                },
+                "follow_up_action_context": {
+                  "predicted_next_action": "File moved confirmation"
+                },
+                "screenshot": {
+                  "name": "Screenshot_2024-11-16_10-45-40.png",
+                  "location": "/screenshots/session123/",
+                  "action_name": "Mouse Drag",
+                  "workflow_name": "File Management"
+                },
+                /* Additional Properties Specific to Mouse Drag */
+                "button_type": "Left",
+                "start_coordinates": {
+                  "x": 600.0,
+                  "y": 400.0
+                },
+                "end_coordinates": {
+                  "x": 700.0,
+                  "y": 500.0
+                },
+                "drag_distance": 141.42,  // Calculated distance
+                "modifiers": []
+              }
+            },
+            {
+              "action_type": "mouse_hover",
+              "meta_information": {
+                /* Standard Properties */
+                "timestamp": "2024-11-16T10:45:50Z",
+                "sequence_order": 6,
+                "screen_context": {
+                  "visible_ui_elements": ["Button: Help"]
+                },
+                "url_path_context": {
+                  "url": "https://example.com/help",
+                  "file_path": null
+                },
+                "element_context": {
+                  "element_type": "Button",
+                  "element_name": "Help"
+                },
+                "application_context": {
+                  "application_name": "Google Chrome",
+                  "application_version": "v118"
+                },
+                "interaction_duration": 2.0,
+                "user_intent_inferred": {
+                  "intent": "View tooltip information"
+                },
+                "previous_action_context": {
+                  "previous_action": "Navigated to Help page"
+                },
+                "follow_up_action_context": {
+                  "predicted_next_action": "Click Help button"
+                },
+                "screenshot": {
+                  "name": "Screenshot_2024-11-16_10-45-50.png",
+                  "location": "/screenshots/session123/",
+                  "action_name": "Mouse Hover",
+                  "workflow_name": "Access Help"
+                },
+                /* Additional Properties Specific to Mouse Hover */
+                "hover_duration": 2.0,  // Duration in seconds
+                "mouse_coordinates": {
+                  "x": 650.0,
+                  "y": 450.0
+                }
+              }
+            },
+            {
+              "action_type": "mouse_scroll",
+              "meta_information": {
+                /* Standard Properties */
+                "timestamp": "2024-11-16T10:46:00Z",
+                "sequence_order": 7,
+                "screen_context": {
+                  "visible_ui_elements": ["Article content"]
+                },
+                "url_path_context": {
+                  "url": "https://example.com/article",
+                  "file_path": null
+                },
+                "element_context": {
+                  "element_type": "Page",
+                  "element_name": "Article"
+                },
+                "application_context": {
+                  "application_name": "Google Chrome",
+                  "application_version": "v118"
+                },
+                "interaction_duration": 3.0,
+                "user_intent_inferred": {
+                  "intent": "Read article"
+                },
+                "previous_action_context": {
+                  "previous_action": "Started reading article"
+                },
+                "follow_up_action_context": {
+                  "predicted_next_action": "Continue reading or click link"
+                },
+                "screenshot": {
+                  "name": "Screenshot_2024-11-16_10-46-00.png",
+                  "location": "/screenshots/session123/",
+                  "action_name": "Mouse Scroll",
+                  "workflow_name": "Article Reading"
+                },
+                /* Additional Properties Specific to Mouse Scroll */
+                "scroll_direction": "Down",  // "Up" or "Down"
+                "scroll_amount": 300,  // Scroll amount in pixels or units
+                "mouse_coordinates": {
+                  "x": null,
+                  "y": null  // Coordinates may not be relevant for scrolling
+                }
+              }
+            },
+            {
+              "action_type": "mouse_move",
+              "meta_information": {
+                /* Standard Properties */
+                "timestamp": "2024-11-16T10:46:10Z",
+                "sequence_order": 8,
+                "screen_context": {
+                  "visible_ui_elements": ["Dashboard"]
+                },
+                "url_path_context": {
+                  "url": "https://example.com/dashboard",
+                  "file_path": null
+                },
+                "element_context": null,
+                "application_context": {
+                  "application_name": "Google Chrome",
+                  "application_version": "v118"
+                },
+                "interaction_duration": 1.0,
+                "user_intent_inferred": {
+                  "intent": "Navigate to menu"
+                },
+                "previous_action_context": {
+                  "previous_action": "Viewed dashboard"
+                },
+                "follow_up_action_context": {
+                  "predicted_next_action": "Click menu item"
+                },
+                "screenshot": {
+                  "name": "Screenshot_2024-11-16_10-46-10.png",
+                  "location": "/screenshots/session123/",
+                  "action_name": "Mouse Move",
+                  "workflow_name": "Navigation"
+                },
+                /* Additional Properties Specific to Mouse Move */
+                "path_coordinates": [
+                  { "x": 600.0, "y": 400.0 },
+                  { "x": 610.0, "y": 410.0 },
+                  { "x": 620.0, "y": 420.0 }
+                ],
+                "movement_duration": 1.0  // Duration in seconds
+              }
+            }
+          ]
+        },
+        {
+          "subcategory": "context_menus",
+          "actions": [
+            {
+              "action_type": "context_menu_open",
+              "meta_information": {
+                /* Standard Properties */
+                "timestamp": "2024-11-16T10:46:20Z",
+                "sequence_order": 9,
+                "screen_context": {
+                  "visible_ui_elements": ["Text: 'Sample Text'"]
+                },
+                "url_path_context": {
+                  "url": "https://example.com/textpage",
+                  "file_path": null
+                },
+                "element_context": {
+                  "element_type": "Text",
+                  "element_name": "Sample Text"
+                },
+                "application_context": {
+                  "application_name": "Google Chrome",
+                  "application_version": "v118"
+                },
+                "interaction_duration": 0.5,
+                "user_intent_inferred": {
+                  "intent": "Open context menu"
+                },
+                "previous_action_context": {
+                  "previous_action": "Selected text"
+                },
+                "follow_up_action_context": {
+                  "predicted_next_action": "Click 'Copy' in context menu"
+                },
+                "screenshot": {
+                  "name": "Screenshot_2024-11-16_10-46-20.png",
+                  "location": "/screenshots/session123/",
+                  "action_name": "Context Menu Open",
+                  "workflow_name": "Copy Text"
+                },
+                /* Additional Properties Specific to Context Menu Open */
+                "mouse_coordinates": {
+                  "x": 500.0,
+                  "y": 300.0
+                },
+                "menu_items": [
+                  "Open Link in New Tab",
+                  "Save Link As...",
+                  "Copy Link Address",
+                  "Inspect"
+                ],
+                "modifiers": []
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "keyboard_actions",
+      "subcategories": [
+        {
+          "subcategory": "keystrokes",
+          "actions": [
+            {
+              "action_type": "keystroke",
+              "meta_information": {
+                /* Standard Properties */
+                "timestamp": "2024-11-16T10:48:00Z",
+                "sequence_order": 1,
+                "screen_context": {
+                  "visible_ui_elements": ["Text Field: Search"]
+                },
+                "url_path_context": {
+                  "url": "https://example.com",
+                  "file_path": null
+                },
+                "element_context": {
+                  "element_type": "Text Field",
+                  "element_name": "Search Box"
+                },
+                "application_context": {
+                  "application_name": "Google Chrome",
+                  "application_version": "v118"
+                },
+                "interaction_duration": 0.1,
+                "user_intent_inferred": {
+                  "intent": "Type search query"
+                },
+                "previous_action_context": {
+                  "previous_action": "Focused on search box"
+                },
+                "follow_up_action_context": {
+                  "predicted_next_action": "Press Enter to search"
+                },
+                "screenshot": {
+                  "name": "Screenshot_2024-11-16_10-48-00.png",
+                  "location": "/screenshots/session123/",
+                  "action_name": "Keystroke",
+                  "workflow_name": "Search"
+                },
+                /* Additional Properties Specific to Keystroke */
+                "key": "A",  // The key pressed
+                "key_code": 65,  // ASCII or key code
+                "modifiers": []  // Any modifier keys pressed (e.g., Shift)
+              }
+            }
+          ]
+        },
+        {
+          "subcategory": "key_combinations",
+          "actions": [
+            {
+              "action_type": "key_combination",
+              "meta_information": {
+                /* Standard Properties */
+                "timestamp": "2024-11-16T10:48:05Z",
+                "sequence_order": 2,
+                "screen_context": {
+                  "visible_ui_elements": ["Document: report.docx"]
+                },
+                "url_path_context": {
+                  "url": null,
+                  "file_path": "/Documents/report.docx"
+                },
+                "element_context": {
+                  "element_type": "Document",
+                  "element_name": "report.docx"
+                },
+                "application_context": {
+                  "application_name": "Microsoft Word",
+                  "application_version": "v16.0"
+                },
+                "interaction_duration": 0.2,
+                "user_intent_inferred": {
+                  "intent": "Copy selected text"
+                },
+                "previous_action_context": {
+                  "previous_action": "Highlighted text"
+                },
+                "follow_up_action_context": {
+                  "predicted_next_action": "Paste text elsewhere"
+                },
+                "screenshot": {
+                  "name": "Screenshot_2024-11-16_10-48-05.png",
+                  "location": "/screenshots/session123/",
+                  "action_name": "Key Combination",
+                  "workflow_name": "Copy-Paste"
+                },
+                /* Additional Properties Specific to Key Combination */
+                "keys": ["Ctrl", "C"],  // Keys involved in the combination
+                "modifiers": ["Ctrl"]
+              }
+            }
+          ]
+        },
+        {
+          "subcategory": "typing_sequences",
+          "actions": [
+            {
+              "action_type": "typing_sequence",
+              "meta_information": {
+                /* Standard Properties */
+                "timestamp": "2024-11-16T10:48:10Z",
+                "sequence_order": 3,
+                "screen_context": {
+                  "visible_ui_elements": ["Text Editor: Note"]
+                },
+                "url_path_context": {
+                  "url": null,
+                  "file_path": "/Documents/notes.txt"
+                },
+                "element_context": {
+                  "element_type": "Text Editor",
+                  "element_name": "notes.txt"
+                },
+                "application_context": {
+                  "application_name": "Notepad",
+                  "application_version": "v10.0"
+                },
+                "interaction_duration": 15.0,
+                "user_intent_inferred": {
+                  "intent": "Write meeting notes"
+                },
+                "previous_action_context": {
+                  "previous_action": "Opened notes.txt"
+                },
+                "follow_up_action_context": {
+                  "predicted_next_action": "Save the document"
+                },
+                "screenshot": {
+                  "name": "Screenshot_2024-11-16_10-48-10.png",
+                  "location": "/screenshots/session123/",
+                  "action_name": "Typing Sequence",
+                  "workflow_name": "Note Taking"
+                },
+                /* Additional Properties Specific to Typing Sequence */
+                "text_entered": "Meeting at 3 PM with the team.",
+                "character_count": 29,
+                "typing_speed_wpm": 40
+              }
+            }
+          ]
+        },
+        {
+          "subcategory": "special_keys",
+          "actions": [
+            {
+              "action_type": "special_key_press",
+              "meta_information": {
+                /* Standard Properties */
+                "timestamp": "2024-11-16T10:48:30Z",
+                "sequence_order": 4,
+                "screen_context": {
+                  "visible_ui_elements": ["Dialog: Save Changes?"]
+                },
+                "url_path_context": {
+                  "url": null,
+                  "file_path": null
+                },
+                "element_context": {
+                  "element_type": "Dialog",
+                  "element_name": "Save Confirmation"
+                },
+                "application_context": {
+                  "application_name": "Notepad",
+                  "application_version": "v10.0"
+                },
+                "interaction_duration": 0.1,
+                "user_intent_inferred": {
+                  "intent": "Confirm save action"
+                },
+                "previous_action_context": {
+                  "previous_action": "Attempted to close document"
+                },
+                "follow_up_action_context": {
+                  "predicted_next_action": "Document closes"
+                },
+                "screenshot": {
+                  "name": "Screenshot_2024-11-16_10-48-30.png",
+                  "location": "/screenshots/session123/",
+                  "action_name": "Special Key Press",
+                  "workflow_name": "Save Document"
+                },
+                /* Additional Properties Specific to Special Key Press */
+                "key": "Enter",  // Special key pressed
+                "key_code": 13,
+                "modifiers": []
+              }
+            }
+          ]
+        },
+        {
+          "subcategory": "shortcut_uses",
+          "actions": [
+            {
+              "action_type": "shortcut_use",
+              "meta_information": {
+                /* Standard Properties */
+                "timestamp": "2024-11-16T10:48:40Z",
+                "sequence_order": 5,
+                "screen_context": {
+                  "visible_ui_elements": ["Email Client: New Message"]
+                },
+                "url_path_context": {
+                  "url": null,
+                  "file_path": null
+                },
+                "element_context": {
+                  "element_type": "Email Client",
+                  "element_name": "Compose Window"
+                },
+                "application_context": {
+                  "application_name": "Outlook",
+                  "application_version": "v2023"
+                },
+                "interaction_duration": 0.2,
+                "user_intent_inferred": {
+                  "intent": "Send email"
+                },
+                "previous_action_context": {
+                  "previous_action": "Typed email content"
+                },
+                "follow_up_action_context": {
+                  "predicted_next_action": "Email is sent"
+                },
+                "screenshot": {
+                  "name": "Screenshot_2024-11-16_10-48-40.png",
+                  "location": "/screenshots/session123/",
+                  "action_name": "Shortcut Use",
+                  "workflow_name": "Email Sending"
+                },
+                /* Additional Properties Specific to Shortcut Use */
+                "shortcut": "Ctrl+Enter",  // Shortcut used
+                "keys": ["Ctrl", "Enter"],
+                "modifiers": ["Ctrl"]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "file_and_folder_actions",
+      "subcategories": [
+        {
+          "subcategory": "file_operations",
+          "actions": [
+            {
+              "action_type": "file_open",
+              "meta_information": {
+                /* Standard Properties */
+                "timestamp": "2024-11-16T10:49:00Z",
+                "sequence_order": 6,
+                "screen_context": {
+                  "visible_ui_elements": ["File Explorer"]
+                },
+                "url_path_context": {
+                  "url": null,
+                  "file_path": "/Documents/report.docx"
+                },
+                "element_context": {
+                  "element_type": "File",
+                  "element_name": "report.docx"
+                },
+                "application_context": {
+                  "application_name": "File Explorer",
+                  "application_version": "v10.0"
+                },
+                "interaction_duration": 0.5,
+                "user_intent_inferred": {
+                  "intent": "Open document"
+                },
+                "previous_action_context": {
+                  "previous_action": "Navigated to Documents folder"
+                },
+                "follow_up_action_context": {
+                  "predicted_next_action": "Edit document"
+                },
+                "screenshot": {
+                  "name": "Screenshot_2024-11-16_10-49-00.png",
+                  "location": "/screenshots/session123/",
+                  "action_name": "File Open",
+                  "workflow_name": "Document Editing"
+                },
+                /* Additional Properties Specific to File Open */
+                "file_name": "report.docx",
+                "file_path": "/Documents/report.docx",
+                "file_size": "1.2 MB",
+                "file_type": "Microsoft Word Document",
+                "open_method": "Double-click",
+                "action_result": "Success"
+              }
+            },
+            {
+              "action_type": "file_save",
+              "meta_information": {
+                /* Standard Properties */
+                "timestamp": "2024-11-16T10:50:00Z",
+                "sequence_order": 7,
+                "screen_context": {
+                  "visible_ui_elements": ["Microsoft Word"]
+                },
+                "url_path_context": {
+                  "url": null,
+                  "file_path": "/Documents/report.docx"
+                },
+                "element_context": {
+                  "element_type": "Menu Item",
+                  "element_name": "Save"
+                },
+                "application_context": {
+                  "application_name": "Microsoft Word",
+                  "application_version": "v16.0"
+                },
+                "interaction_duration": 0.3,
+                "user_intent_inferred": {
+                  "intent": "Save document"
+                },
+                "previous_action_context": {
+                  "previous_action": "Edited document"
+                },
+                "follow_up_action_context": {
+                  "predicted_next_action": "Continue editing or close document"
+                },
+                "screenshot": {
+                  "name": "Screenshot_2024-11-16_10-50-00.png",
+                  "location": "/screenshots/session123/",
+                  "action_name": "File Save",
+                  "workflow_name": "Document Editing"
+                },
+                /* Additional Properties Specific to File Save */
+                "file_name": "report.docx",
+                "file_path": "/Documents/report.docx",
+                "file_size": "1.3 MB",
+                "file_type": "Microsoft Word Document",
+                "save_location": "Local Disk",
+                "save_method": "Menu Save Option",
+                "action_result": "Success"
+              }
+            },
+            {
+              "action_type": "file_delete",
+              "meta_information": {
+                /* Standard Properties */
+                "timestamp": "2024-11-16T10:51:00Z",
+                "sequence_order": 8,
+                "screen_context": {
+                  "visible_ui_elements": ["File Explorer"]
+                },
+                "url_path_context": {
+                  "url": null,
+                  "file_path": "/Documents/old_report.docx"
+                },
+                "element_context": {
+                  "element_type": "File",
+                  "element_name": "old_report.docx"
+                },
+                "application_context": {
+                  "application_name": "File Explorer",
+                  "application_version": "v10.0"
+                },
+                "interaction_duration": 0.4,
+                "user_intent_inferred": {
+                  "intent": "Delete file"
+                },
+                "previous_action_context": {
+                  "previous_action": "Selected file"
+                },
+                "follow_up_action_context": {
+                  "predicted_next_action": "Confirm deletion"
+                },
+                "screenshot": {
+                  "name": "Screenshot_2024-11-16_10-51-00.png",
+                  "location": "/screenshots/session123/",
+                  "action_name": "File Delete",
+                  "workflow_name": "File Management"
+                },
+                /* Additional Properties Specific to File Delete */
+                "file_name": "old_report.docx",
+                "file_path": "/Documents/old_report.docx",
+                "file_size": "1.0 MB",
+                "file_type": "Microsoft Word Document",
+                "delete_method": "Right-click > Delete",
+                "action_result": "Moved to Recycle Bin"
+              }
+            },
+            {
+              "action_type": "file_rename",
+              "meta_information": {
+                /* Standard Properties */
+                "timestamp": "2024-11-16T10:52:00Z",
+                "sequence_order": 9,
+                "screen_context": {
+                  "visible_ui_elements": ["File Explorer"]
+                },
+                "url_path_context": {
+                  "url": null,
+                  "file_path": "/Documents/meeting_notes.txt"
+                },
+                "element_context": {
+                  "element_type": "File",
+                  "element_name": "meeting_notes.txt"
+                },
+                "application_context": {
+                  "application_name": "File Explorer",
+                  "application_version": "v10.0"
+                },
+                "interaction_duration": 1.0,
+                "user_intent_inferred": {
+                  "intent": "Rename file"
+                },
+                "previous_action_context": {
+                  "previous_action": "Selected file"
+                },
+                "follow_up_action_context": {
+                  "predicted_next_action": "Open renamed file"
+                },
+                "screenshot": {
+                  "name": "Screenshot_2024-11-16_10-52-00.png",
+                  "location": "/screenshots/session123/",
+                  "action_name": "File Rename",
+                  "workflow_name": "File Management"
+                },
+                /* Additional Properties Specific to File Rename */
+                "original_file_name": "meeting_notes.txt",
+                "new_file_name": "meeting_notes_2024.txt",
+                "file_path": "/Documents/",
+                "file_type": "Text Document",
+                "rename_method": "Slow double-click",
+                "action_result": "Success"
+              }
+            },
+            {
+              "action_type": "file_move",
+              "meta_information": {
+                /* Standard Properties */
+                "timestamp": "2024-11-16T10:53:00Z",
+                "sequence_order": 10,
+                "screen_context": {
+                  "visible_ui_elements": ["File Explorer"]
+                },
+                "url_path_context": {
+                  "url": null,
+                  "file_path": "/Downloads/setup.exe"
+                },
+                "element_context": {
+                  "element_type": "File",
+                  "element_name": "setup.exe"
+                },
+                "application_context": {
+                  "application_name": "File Explorer",
+                  "application_version": "v10.0"
+                },
+                "interaction_duration": 1.2,
+                "user_intent_inferred": {
+                  "intent": "Move file to Programs folder"
+                },
+                "previous_action_context": {
+                  "previous_action": "Selected file"
+                },
+                "follow_up_action_context": {
+                  "predicted_next_action": "Install software"
+                },
+                "screenshot": {
+                  "name": "Screenshot_2024-11-16_10-53-00.png",
+                  "location": "/screenshots/session123/",
+                  "action_name": "File Move",
+                  "workflow_name": "Software Installation"
+                },
+                /* Additional Properties Specific to File Move */
+                "file_name": "setup.exe",
+                "source_path": "/Downloads/",
+                "destination_path": "/Programs/",
+                "file_size": "50 MB",
+                "file_type": "Executable File",
+                "move_method": "Drag and Drop",
+                "action_result": "Success"
+              }
+            },
+            {
+              "action_type": "file_copy",
+              "meta_information": {
+                /* Standard Properties */
+                "timestamp": "2024-11-16T10:54:00Z",
+                "sequence_order": 11,
+                "screen_context": {
+                  "visible_ui_elements": ["File Explorer"]
+                },
+                "url_path_context": {
+                  "url": null,
+                  "file_path": "/Pictures/photo.jpg"
+                },
+                "element_context": {
+                  "element_type": "File",
+                  "element_name": "photo.jpg"
+                },
+                "application_context": {
+                  "application_name": "File Explorer",
+                  "application_version": "v10.0"
+                },
+                "interaction_duration": 1.0,
+                "user_intent_inferred": {
+                  "intent": "Copy photo to USB drive"
+                },
+                "previous_action_context": {
+                  "previous_action": "Selected file"
+                },
+                "follow_up_action_context": {
+                  "predicted_next_action": "Eject USB drive"
+                },
+                "screenshot": {
+                  "name": "Screenshot_2024-11-16_10-54-00.png",
+                  "location": "/screenshots/session123/",
+                  "action_name": "File Copy",
+                  "workflow_name": "File Transfer"
+                },
+                /* Additional Properties Specific to File Copy */
+                "file_name": "photo.jpg",
+                "source_path": "/Pictures/",
+                "destination_path": "/USB_Drive/Photos/",
+                "file_size": "5 MB",
+                "file_type": "JPEG Image",
+                "copy_method": "Copy-Paste",
+                "action_result": "Success"
+              }
+            },
+            {
+              "action_type": "file_upload",
+              "meta_information": {
+                /* Standard Properties */
+                "timestamp": "2024-11-16T10:55:00Z",
+                "sequence_order": 12,
+                "screen_context": {
+                  "visible_ui_elements": ["Web Browser"]
+                },
+                "url_path_context": {
+                  "url": "https://example.com/upload",
+                  "file_path": null
+                },
+                "element_context": {
+                  "element_type": "Button",
+                  "element_name": "Upload"
+                },
+                "application_context": {
+                  "application_name": "Google Chrome",
+                  "application_version": "v118"
+                },
+                "interaction_duration": 2.5,
+                "user_intent_inferred": {
+                  "intent": "Upload resume"
+                },
+                "previous_action_context": {
+                  "previous_action": "Navigated to upload page"
+                },
+                "follow_up_action_context": {
+                  "predicted_next_action": "Submit application"
+                },
+                "screenshot": {
+                  "name": "Screenshot_2024-11-16_10-55-00.png",
+                  "location": "/screenshots/session123/",
+                  "action_name": "File Upload",
+                  "workflow_name": "Job Application"
+                },
+                /* Additional Properties Specific to File Upload */
+                "file_name": "resume.pdf",
+                "file_path": "/Documents/resume.pdf",
+                "file_size": "500 KB",
+                "file_type": "PDF Document",
+                "upload_url": "https://example.com/upload",
+                "upload_method": "Browse and Select",
+                "action_result": "Success"
+              }
+            },
+            {
+              "action_type": "file_download",
+              "meta_information": {
+                /* Standard Properties */
+                "timestamp": "2024-11-16T10:56:00Z",
+                "sequence_order": 13,
+                "screen_context": {
+                  "visible_ui_elements": ["Web Browser"]
+                },
+                "url_path_context": {
+                  "url": "https://example.com/downloads/software.zip",
+                  "file_path": null
+                },
+                "element_context": {
+                  "element_type": "Link",
+                  "element_name": "Download Software"
+                },
+                "application_context": {
+                  "application_name": "Google Chrome",
+                  "application_version": "v118"
+                },
+                "interaction_duration": 3.0,
+                "user_intent_inferred": {
+                  "intent": "Download software"
+                },
+                "previous_action_context": {
+                  "previous_action": "Navigated to download page"
+                },
+                "follow_up_action_context": {
+                  "predicted_next_action": "Install software"
+                },
+                "screenshot": {
+                  "name": "Screenshot_2024-11-16_10-56-00.png",
+                  "location": "/screenshots/session123/",
+                  "action_name": "File Download",
+                  "workflow_name": "Software Installation"
+                },
+                /* Additional Properties Specific to File Download */
+                "file_name": "software.zip",
+                "download_url": "https://example.com/downloads/software.zip",
+                "save_location": "/Downloads/",
+                "file_size": "100 MB",
+                "file_type": "ZIP Archive",
+                "download_method": "Click Link",
+                "action_result": "Success"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "browser_actions",
+      "subcategories": [
+        {
+          "subcategory": "selenium_actions",
+          "actions": [
+            {
+              "action_type": "open_selenium",
+              "meta_information": {
+                /* Standard Properties */
+                "timestamp": "2024-11-16T10:57:00Z",
+                "sequence_order": 14,
+                "screen_context": {
+                  "visible_ui_elements": ["Command Line Interface"]
+                },
+                "url_path_context": {
+                  "url": null,
+                  "file_path": null
+                },
+                "element_context": null,
+                "application_context": {
+                  "application_name": "Selenium WebDriver",
+                  "application_version": "v4.0"
+                },
+                "interaction_duration": 0.5,
+                "user_intent_inferred": {
+                  "intent": "Initialize browser automation"
+                },
+                "previous_action_context": {
+                  "previous_action": "Opened IDE"
+                },
+                "follow_up_action_context": {
+                  "predicted_next_action": "Perform automated tasks"
+                },
+                "screenshot": {
+                  "name": "Screenshot_2024-11-16_10-57-00.png",
+                  "location": "/screenshots/session123/",
+                  "action_name": "Open Selenium",
+                  "workflow_name": "Browser Automation"
+                },
+                /* Additional Properties Specific to Open Selenium */
+                "driver_type": "ChromeDriver",
+                "driver_version": "v95.0",
+                "initial_url": "https://example.com",
+                "action_result": "Driver initialized successfully"
+              }
+            },
+            {
+              "action_type": "close_selenium",
+              "meta_information": {
+                /* Standard Properties */
+                "timestamp": "2024-11-16T11:10:00Z",
+                "sequence_order": 25,
+                "screen_context": {
+                  "visible_ui_elements": ["Selenium WebDriver"]
+                },
+                "url_path_context": {
+                  "url": "https://example.com",
+                  "file_path": null
+                },
+                "element_context": null,
+                "application_context": {
+                  "application_name": "Selenium WebDriver",
+                  "application_version": "v4.0"
+                },
+                "interaction_duration": 0.2,
+                "user_intent_inferred": {
+                  "intent": "Terminate browser automation"
+                },
+                "previous_action_context": {
+                  "previous_action": "Completed automated tasks"
+                },
+                "follow_up_action_context": {
+                  "predicted_next_action": "Close IDE"
+                },
+                "screenshot": {
+                  "name": "Screenshot_2024-11-16_11-10-00.png",
+                  "location": "/screenshots/session123/",
+                  "action_name": "Close Selenium",
+                  "workflow_name": "Browser Automation"
+                },
+                /* Additional Properties Specific to Close Selenium */
+                "driver_type": "ChromeDriver",
+                "driver_version": "v95.0",
+                "action_result": "Driver closed successfully"
+              }
+            }
+          ]
+        },
+        {
+          "subcategory": "element_interactions",
+          "actions": [
+            {
+              "action_type": "element_interact",
+              "meta_information": {
+                /* Standard Properties */
+                "timestamp": "2024-11-16T10:58:00Z",
+                "sequence_order": 15,
+                "screen_context": {
+                  "visible_ui_elements": ["Webpage Elements"]
+                },
+                "url_path_context": {
+                  "url": "https://example.com",
+                  "file_path": null
+                },
+                "element_context": {
+                  "element_type": "Button",
+                  "element_name": "Login"
+                },
+                "application_context": {
+                  "application_name": "Selenium WebDriver",
+                  "application_version": "v4.0"
+                },
+                "interaction_duration": 0.3,
+                "user_intent_inferred": {
+                  "intent": "Automate button click"
+                },
+                "previous_action_context": {
+                  "previous_action": "Opened webpage via Selenium"
+                },
+                "follow_up_action_context": {
+                  "predicted_next_action": "Process login"
+                },
+                "screenshot": {
+                  "name": "Screenshot_2024-11-16_10-58-00.png",
+                  "location": "/screenshots/session123/",
+                  "action_name": "Element Interact",
+                  "workflow_name": "Browser Automation"
+                },
+                /* Additional Properties Specific to Element Interact */
+                "interaction_type": "click",
+                "element_selector": {
+                  "by": "id",
+                  "value": "loginButton"
+                },
+                "action_result": "Element clicked successfully"
+              }
+            }
+          ]
+        },
+        {
+          "subcategory": "navigation",
+          "actions": [
+            {
+              "action_type": "url_navigation",
+              "meta_information": {
+                /* Standard Properties */
+                "timestamp": "2024-11-16T10:59:00Z",
+                "sequence_order": 16,
+                "screen_context": {
+                  "visible_ui_elements": ["Browser Address Bar"]
+                },
+                "url_path_context": {
+                  "url": "https://openai.com",
+                  "file_path": null
+                },
+                "element_context": {
+                  "element_type": "Address Bar",
+                  "element_name": "URL Input"
+                },
+                "application_context": {
+                  "application_name": "Google Chrome",
+                  "application_version": "v118"
+                },
+                "interaction_duration": 2.0,
+                "user_intent_inferred": {
+                  "intent": "Navigate to OpenAI website"
+                },
+                "previous_action_context": {
+                  "previous_action": "Opened new tab"
+                },
+                "follow_up_action_context": {
+                  "predicted_next_action": "Browse website"
+                },
+                "screenshot": {
+                  "name": "Screenshot_2024-11-16_10-59-00.png",
+                  "location": "/screenshots/session123/",
+                  "action_name": "URL Navigation",
+                  "workflow_name": "Web Browsing"
+                },
+                /* Additional Properties Specific to URL Navigation */
+                "navigation_method": "Typed URL",
+                "referrer": "https://example.com",
+                "action_result": "Page loaded successfully"
+              }
+            },
+            {
+              "action_type": "search_query",
+              "meta_information": {
+                /* Standard Properties */
+                "timestamp": "2024-11-16T11:00:00Z",
+                "sequence_order": 17,
+                "screen_context": {
+                  "visible_ui_elements": ["Search Engine Homepage"]
+                },
+                "url_path_context": {
+                  "url": "https://www.google.com",
+                  "file_path": null
+                },
+                "element_context": {
+                  "element_type": "Search Box",
+                  "element_name": "Google Search"
+                },
+                "application_context": {
+                  "application_name": "Google Chrome",
+                  "application_version": "v118"
+                },
+                "interaction_duration": 5.0,
+                "user_intent_inferred": {
+                  "intent": "Search for 'Best programming languages in 2024'"
+                },
+                "previous_action_context": {
+                  "previous_action": "Navigated to Google"
+                },
+                "follow_up_action_context": {
+                  "predicted_next_action": "Review search results"
+                },
+                "screenshot": {
+                  "name": "Screenshot_2024-11-16_11-00-00.png",
+                  "location": "/screenshots/session123/",
+                  "action_name": "Search Query",
+                  "workflow_name": "Web Search"
+                },
+                /* Additional Properties Specific to Search Query */
+                "search_engine": "Google",
+                "query_text": "Best programming languages in 2024",
+                "search_results_count": 1000000,
+                "action_result": "Search executed successfully"
+              }
+            }
+          ]
+        },
+        {
+          "subcategory": "tab_management",
+          "actions": [
+            {
+              "action_type": "tab_open",
+              "meta_information": {
+                /* Standard Properties */
+                "timestamp": "2024-11-16T11:01:00Z",
+                "sequence_order": 18,
+                "screen_context": {
+                  "visible_ui_elements": ["Browser Tabs"]
+                },
+                "url_path_context": {
+                  "url": null,
+                  "file_path": null
+                },
+                "element_context": {
+                  "element_type": "Tab",
+                  "element_name": "New Tab"
+                },
+                "application_context": {
+                  "application_name": "Google Chrome",
+                  "application_version": "v118"
+                },
+                "interaction_duration": 0.1,
+                "user_intent_inferred": {
+                  "intent": "Open new browser tab"
+                },
+                "previous_action_context": {
+                  "previous_action": "Browsing existing tab"
+                },
+                "follow_up_action_context": {
+                  "predicted_next_action": "Navigate to a website"
+                },
+                "screenshot": {
+                  "name": "Screenshot_2024-11-16_11-01-00.png",
+                  "location": "/screenshots/session123/",
+                  "action_name": "Tab Open",
+                  "workflow_name": "Web Browsing"
+                },
+                /* Additional Properties Specific to Tab Open */
+                "tab_index": 3,
+                "open_method": "Ctrl+T",
+                "action_result": "New tab opened"
+              }
+            },
+            {
+              "action_type": "tab_close",
+              "meta_information": {
+                /* Standard Properties */
+                "timestamp": "2024-11-16T11:02:00Z",
+                "sequence_order": 19,
+                "screen_context": {
+                  "visible_ui_elements": ["Browser Tabs"]
+                },
+                "url_path_context": {
+                  "url": "https://example.com/old",
+                  "file_path": null
+                },
+                "element_context": {
+                  "element_type": "Tab",
+                  "element_name": "Old Tab"
+                },
+                "application_context": {
+                  "application_name": "Google Chrome",
+                  "application_version": "v118"
+                },
+                "interaction_duration": 0.1,
+                "user_intent_inferred": {
+                  "intent": "Close browser tab"
+                },
+                "previous_action_context": {
+                  "previous_action": "Finished reading content"
+                },
+                "follow_up_action_context": {
+                  "predicted_next_action": "Focus on remaining tabs"
+                },
+                "screenshot": {
+                  "name": "Screenshot_2024-11-16_11-02-00.png",
+                  "location": "/screenshots/session123/",
+                  "action_name": "Tab Close",
+                  "workflow_name": "Web Browsing"
+                },
+                /* Additional Properties Specific to Tab Close */
+                "tab_index": 2,
+                "close_method": "Click Close Button",
+                "action_result": "Tab closed"
+              }
+            }
+          ]
+        },
+        {
+          "subcategory": "navigation_actions",
+          "actions": [
+            {
+              "action_type": "link_click",
+              "meta_information": {
+                /* Standard Properties */
+                "timestamp": "2024-11-16T11:03:00Z",
+                "sequence_order": 20,
+                "screen_context": {
+                  "visible_ui_elements": ["Webpage Links"]
+                },
+                "url_path_context": {
+                  "url": "https://openai.com",
+                  "file_path": null
+                },
+                "element_context": {
+                  "element_type": "Link",
+                  "element_name": "Learn More"
+                },
+                "application_context": {
+                  "application_name": "Google Chrome",
+                  "application_version": "v118"
+                },
+                "interaction_duration": 0.2,
+                "user_intent_inferred": {
+                  "intent": "Navigate to additional information"
+                },
+                "previous_action_context": {
+                  "previous_action": "Reading homepage"
+                },
+                "follow_up_action_context": {
+                  "predicted_next_action": "Read detailed content"
+                },
+                "screenshot": {
+                  "name": "Screenshot_2024-11-16_11-03-00.png",
+                  "location": "/screenshots/session123/",
+                  "action_name": "Link Click",
+                  "workflow_name": "Information Gathering"
+                },
+                /* Additional Properties Specific to Link Click */
+                "link_url": "https://openai.com/about",
+                "link_text": "Learn More",
+                "action_result": "Page navigated successfully"
+              }
+            },
+            {
+              "action_type": "bookmark_save",
+              "meta_information": {
+                /* Standard Properties */
+                "timestamp": "2024-11-16T11:04:00Z",
+                "sequence_order": 21,
+                "screen_context": {
+                  "visible_ui_elements": ["Browser Toolbar"]
+                },
+                "url_path_context": {
+                  "url": "https://openai.com/about",
+                  "file_path": null
+                },
+                "element_context": {
+                  "element_type": "Bookmark Icon",
+                  "element_name": "Save Bookmark"
+                },
+                "application_context": {
+                  "application_name": "Google Chrome",
+                  "application_version": "v118"
+                },
+                "interaction_duration": 0.5,
+                "user_intent_inferred": {
+                  "intent": "Save page for later reference"
+                },
+                "previous_action_context": {
+                  "previous_action": "Browsing page"
+                },
+                "follow_up_action_context": {
+                  "predicted_next_action": "Continue browsing"
+                },
+                "screenshot": {
+                  "name": "Screenshot_2024-11-16_11-04-00.png",
+                  "location": "/screenshots/session123/",
+                  "action_name": "Bookmark Save",
+                  "workflow_name": "Web Browsing"
+                },
+                /* Additional Properties Specific to Bookmark Save */
+                "bookmark_name": "OpenAI About",
+                "bookmark_folder": "Bookmarks Bar",
+                "action_result": "Bookmark saved"
+              }
+            },
+            {
+              "action_type": "form_submission",
+              "meta_information": {
+                /* Standard Properties */
+                "timestamp": "2024-11-16T11:05:00Z",
+                "sequence_order": 22,
+                "screen_context": {
+                  "visible_ui_elements": ["Contact Form"]
+                },
+                "url_path_context": {
+                  "url": "https://example.com/contact",
+                  "file_path": null
+                },
+                "element_context": {
+                  "element_type": "Form",
+                  "element_name": "Contact Us"
+                },
+                "application_context": {
+                  "application_name": "Google Chrome",
+                  "application_version": "v118"
+                },
+                "interaction_duration": 10.0,
+                "user_intent_inferred": {
+                  "intent": "Submit inquiry"
+                },
+                "previous_action_context": {
+                  "previous_action": "Filled out form fields"
+                },
+                "follow_up_action_context": {
+                  "predicted_next_action": "Await confirmation"
+                },
+                "screenshot": {
+                  "name": "Screenshot_2024-11-16_11-05-00.png",
+                  "location": "/screenshots/session123/",
+                  "action_name": "Form Submission",
+                  "workflow_name": "Contact Us"
+                },
+                /* Additional Properties Specific to Form Submission */
+                "form_fields": {
+                  "name": "John Doe",
+                  "email": "john.doe@example.com",
+                  "message": "Interested in your services."
+                },
+                "submission_method": "Click Submit Button",
+                "action_result": "Form submitted successfully"
+              }
+            },
+            {
+              "action_type": "browser_refresh",
+              "meta_information": {
+                /* Standard Properties */
+                "timestamp": "2024-11-16T11:06:00Z",
+                "sequence_order": 23,
+                "screen_context": {
+                  "visible_ui_elements": ["Webpage Content"]
+                },
+                "url_path_context": {
+                  "url": "https://example.com/dashboard",
+                  "file_path": null
+                },
+                "element_context": {
+                  "element_type": "Browser",
+                  "element_name": "Refresh Button"
+                },
+                "application_context": {
+                  "application_name": "Google Chrome",
+                  "application_version": "v118"
+                },
+                "interaction_duration": 0.1,
+                "user_intent_inferred": {
+                  "intent": "Refresh page content"
+                },
+                "previous_action_context": {
+                  "previous_action": "Viewing outdated data"
+                },
+                "follow_up_action_context": {
+                  "predicted_next_action": "Review updated data"
+                },
+                "screenshot": {
+                  "name": "Screenshot_2024-11-16_11-06-00.png",
+                  "location": "/screenshots/session123/",
+                  "action_name": "Browser Refresh",
+                  "workflow_name": "Data Monitoring"
+                },
+                /* Additional Properties Specific to Browser Refresh */
+                "refresh_method": "F5 Key",
+                "action_result": "Page refreshed successfully"
+              }
+            },
+            {
+              "action_type": "download_file",
+              "meta_information": {
+                /* Standard Properties */
+                "timestamp": "2024-11-16T11:07:00Z",
+                "sequence_order": 24,
+                "screen_context": {
+                  "visible_ui_elements": ["Download Link"]
+                },
+                "url_path_context": {
+                  "url": "https://example.com/files/report.pdf",
+                  "file_path": null
+                },
+                "element_context": {
+                  "element_type": "Link",
+                  "element_name": "Download Report"
+                },
+                "application_context": {
+                  "application_name": "Google Chrome",
+                  "application_version": "v118"
+                },
+                "interaction_duration": 1.5,
+                "user_intent_inferred": {
+                  "intent": "Download report file"
+                },
+                "previous_action_context": {
+                  "previous_action": "Navigated to reports page"
+                },
+                "follow_up_action_context": {
+                  "predicted_next_action": "Open downloaded file"
+                },
+                "screenshot": {
+                  "name": "Screenshot_2024-11-16_11-07-00.png",
+                  "location": "/screenshots/session123/",
+                  "action_name": "Download File",
+                  "workflow_name": "Report Retrieval"
+                },
+                /* Additional Properties Specific to Download File */
+                "file_name": "report.pdf",
+                "download_url": "https://example.com/files/report.pdf",
+                "save_location": "/Downloads/",
+                "file_size": "2 MB",
+                "file_type": "PDF Document",
+                "download_method": "Click Link",
+                "action_result": "Download initiated"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "document_and_text_editing_actions",
+      "subcategories": [
+        {
+          "subcategory": "text_selection",
+          "actions": [
+            {
+              "action_type": "text_selection",
+              "meta_information": {
+                /* Standard Properties */
+                "timestamp": "2024-11-16T11:08:00Z",
+                "sequence_order": 26,
+                "screen_context": {
+                  "visible_ui_elements": ["Text Editor"]
+                },
+                "url_path_context": {
+                  "url": null,
+                  "file_path": "/Documents/report.docx"
+                },
+                "element_context": {
+                  "element_type": "Text",
+                  "element_name": "Paragraph 2"
+                },
+                "application_context": {
+                  "application_name": "Microsoft Word",
+                  "application_version": "v16.0"
+                },
+                "interaction_duration": 2.0,
+                "user_intent_inferred": {
+                  "intent": "Select text for editing"
+                },
+                "previous_action_context": {
+                  "previous_action": "Reading document"
+                },
+                "follow_up_action_context": {
+                  "predicted_next_action": "Copy or modify text"
+                },
+                "screenshot": {
+                  "name": "Screenshot_2024-11-16_11-08-00.png",
+                  "location": "/screenshots/session123/",
+                  "action_name": "Text Selection",
+                  "workflow_name": "Document Editing"
+                },
+                /* Additional Properties Specific to Text Selection */
+                "selected_text": "The quick brown fox jumps over the lazy dog.",
+                "selection_start_position": 100,  // Character index
+                "selection_end_position": 145,
+                "selection_method": "Click and Drag"
+              }
+            }
+          ]
+        },
+        {
+          "subcategory": "clipboard_operations",
+          "actions": [
+            {
+              "action_type": "copy",
+              "meta_information": {
+                /* Standard Properties */
+                "timestamp": "2024-11-16T11:09:00Z",
+                "sequence_order": 27,
+                "screen_context": {
+                  "visible_ui_elements": ["Text Editor"]
+                },
+                "url_path_context": {
+                  "url": null,
+                  "file_path": "/Documents/report.docx"
+                },
+                "element_context": {
+                  "element_type": "Text",
+                  "element_name": "Selected Text"
+                },
+                "application_context": {
+                  "application_name": "Microsoft Word",
+                  "application_version": "v16.0"
+                },
+                "interaction_duration": 0.5,
+                "user_intent_inferred": {
+                  "intent": "Copy selected text"
+                },
+                "previous_action_context": {
+                  "previous_action": "Selected text"
+                },
+                "follow_up_action_context": {
+                  "predicted_next_action": "Paste text elsewhere"
+                },
+                "screenshot": {
+                  "name": "Screenshot_2024-11-16_11-09-00.png",
+                  "location": "/screenshots/session123/",
+                  "action_name": "Copy",
+                  "workflow_name": "Document Editing"
+                },
+                /* Additional Properties Specific to Copy */
+                "copied_text": "The quick brown fox jumps over the lazy dog.",
+                "copy_method": "Ctrl+C",
+                "clipboard_content": "Text"  // Indicates the type of content in clipboard
+              }
+            },
+            {
+              "action_type": "cut",
+              "meta_information": {
+                /* Standard Properties */
+                "timestamp": "2024-11-16T11:10:00Z",
+                "sequence_order": 28,
+                "screen_context": {
+                  "visible_ui_elements": ["Text Editor"]
+                },
+                "url_path_context": {
+                  "url": null,
+                  "file_path": "/Documents/report.docx"
+                },
+                "element_context": {
+                  "element_type": "Text",
+                  "element_name": "Selected Text"
+                },
+                "application_context": {
+                  "application_name": "Microsoft Word",
+                  "application_version": "v16.0"
+                },
+                "interaction_duration": 0.5,
+                "user_intent_inferred": {
+                  "intent": "Cut selected text"
+                },
+                "previous_action_context": {
+                  "previous_action": "Selected text"
+                },
+                "follow_up_action_context": {
+                  "predicted_next_action": "Paste text elsewhere"
+                },
+                "screenshot": {
+                  "name": "Screenshot_2024-11-16_11-10-00.png",
+                  "location": "/screenshots/session123/",
+                  "action_name": "Cut",
+                  "workflow_name": "Document Editing"
+                },
+                /* Additional Properties Specific to Cut */
+                "cut_text": "The quick brown fox jumps over the lazy dog.",
+                "cut_method": "Ctrl+X",
+                "clipboard_content": "Text"
+              }
+            },
+            {
+              "action_type": "paste",
+              "meta_information": {
+                /* Standard Properties */
+                "timestamp": "2024-11-16T11:11:00Z",
+                "sequence_order": 29,
+                "screen_context": {
+                  "visible_ui_elements": ["Text Editor"]
+                },
+                "url_path_context": {
+                  "url": null,
+                  "file_path": "/Documents/summary.docx"
+                },
+                "element_context": {
+                  "element_type": "Text Area",
+                  "element_name": "Paragraph 1"
+                },
+                "application_context": {
+                  "application_name": "Microsoft Word",
+                  "application_version": "v16.0"
+                },
+                "interaction_duration": 0.5,
+                "user_intent_inferred": {
+                  "intent": "Paste text"
+                },
+                "previous_action_context": {
+                  "previous_action": "Moved cursor to target location"
+                },
+                "follow_up_action_context": {
+                  "predicted_next_action": "Format pasted text"
+                },
+                "screenshot": {
+                  "name": "Screenshot_2024-11-16_11-11-00.png",
+                  "location": "/screenshots/session123/",
+                  "action_name": "Paste",
+                  "workflow_name": "Document Editing"
+                },
+                /* Additional Properties Specific to Paste */
+                "pasted_text": "The quick brown fox jumps over the lazy dog.",
+                "paste_method": "Ctrl+V",
+                "clipboard_content": "Text"
+              }
+            }
+          ]
+        },
+        {
+          "subcategory": "edit_operations",
+          "actions": [
+            {
+              "action_type": "undo",
+              "meta_information": {
+                /* Standard Properties */
+                "timestamp": "2024-11-16T11:12:00Z",
+                "sequence_order": 30,
+                "screen_context": {
+                  "visible_ui_elements": ["Text Editor"]
+                },
+                "url_path_context": {
+                  "url": null,
+                  "file_path": "/Documents/summary.docx"
+                },
+                "element_context": null,
+                "application_context": {
+                  "application_name": "Microsoft Word",
+                  "application_version": "v16.0"
+                },
+                "interaction_duration": 0.2,
+                "user_intent_inferred": {
+                  "intent": "Revert last action"
+                },
+                "previous_action_context": {
+                  "previous_action": "Pasted text"
+                },
+                "follow_up_action_context": {
+                  "predicted_next_action": "Redo or make another edit"
+                },
+                "screenshot": {
+                  "name": "Screenshot_2024-11-16_11-12-00.png",
+                  "location": "/screenshots/session123/",
+                  "action_name": "Undo",
+                  "workflow_name": "Document Editing"
+                },
+                /* Additional Properties Specific to Undo */
+                "undo_action": "Paste",
+                "undo_steps": 1,
+                "undo_method": "Ctrl+Z"
+              }
+            },
+            {
+              "action_type": "redo",
+              "meta_information": {
+                /* Standard Properties */
+                "timestamp": "2024-11-16T11:13:00Z",
+                "sequence_order": 31,
+                "screen_context": {
+                  "visible_ui_elements": ["Text Editor"]
+                },
+                "url_path_context": {
+                  "url": null,
+                  "file_path": "/Documents/summary.docx"
+                },
+                "element_context": null,
+                "application_context": {
+                  "application_name": "Microsoft Word",
+                  "application_version": "v16.0"
+                },
+                "interaction_duration": 0.2,
+                "user_intent_inferred": {
+                  "intent": "Reapply undone action"
+                },
+                "previous_action_context": {
+                  "previous_action": "Undid paste"
+                },
+                "follow_up_action_context": {
+                  "predicted_next_action": "Continue editing"
+                },
+                "screenshot": {
+                  "name": "Screenshot_2024-11-16_11-13-00.png",
+                  "location": "/screenshots/session123/",
+                  "action_name": "Redo",
+                  "workflow_name": "Document Editing"
+                },
+                /* Additional Properties Specific to Redo */
+                "redo_action": "Paste",
+                "redo_steps": 1,
+                "redo_method": "Ctrl+Y"
+              }
+            }
+          ]
+        },
+        {
+          "subcategory": "text_formatting",
+          "actions": [
+            {
+              "action_type": "formatting_text",
+              "meta_information": {
+                /* Standard Properties */
+                "timestamp": "2024-11-16T11:14:00Z",
+                "sequence_order": 32,
+                "screen_context": {
+                  "visible_ui_elements": ["Text Editor"]
+                },
+                "url_path_context": {
+                  "url": null,
+                  "file_path": "/Documents/summary.docx"
+                },
+                "element_context": {
+                  "element_type": "Text",
+                  "element_name": "Selected Text"
+                },
+                "application_context": {
+                  "application_name": "Microsoft Word",
+                  "application_version": "v16.0"
+                },
+                "interaction_duration": 1.0,
+                "user_intent_inferred": {
+                  "intent": "Emphasize text"
+                },
+                "previous_action_context": {
+                  "previous_action": "Selected text"
+                },
+                "follow_up_action_context": {
+                  "predicted_next_action": "Continue formatting"
+                },
+                "screenshot": {
+                  "name": "Screenshot_2024-11-16_11-14-00.png",
+                  "location": "/screenshots/session123/",
+                  "action_name": "Formatting Text",
+                  "workflow_name": "Document Editing"
+                },
+                /* Additional Properties Specific to Formatting Text */
+                "formatting_changes": {
+                  "font": "Arial",
+                  "size": 12,
+                  "bold": true,
+                  "italic": false,
+                  "underline": true,
+                  "color": "#0000FF"  // Blue color
+                },
+                "formatting_method": "Toolbar Button"
+              }
+            }
+          ]
+        },
+        {
+          "subcategory": "table_editing",
+          "actions": [
+            {
+              "action_type": "table_editing",
+              "meta_information": {
+                /* Standard Properties */
+                "timestamp": "2024-11-16T11:15:00Z",
+                "sequence_order": 33,
+                "screen_context": {
+                  "visible_ui_elements": ["Text Editor"]
+                },
+                "url_path_context": {
+                  "url": null,
+                  "file_path": "/Documents/financial_report.docx"
+                },
+                "element_context": {
+                  "element_type": "Table",
+                  "element_name": "Q4 Financials"
+                },
+                "application_context": {
+                  "application_name": "Microsoft Word",
+                  "application_version": "v16.0"
+                },
+                "interaction_duration": 3.0,
+                "user_intent_inferred": {
+                  "intent": "Update table data"
+                },
+                "previous_action_context": {
+                  "previous_action": "Navigated to table"
+                },
+                "follow_up_action_context": {
+                  "predicted_next_action": "Format table"
+                },
+                "screenshot": {
+                  "name": "Screenshot_2024-11-16_11-15-00.png",
+                  "location": "/screenshots/session123/",
+                  "action_name": "Table Editing",
+                  "workflow_name": "Document Editing"
+                },
+                /* Additional Properties Specific to Table Editing */
+                "table_action": "Add Row",
+                "table_location": {
+                  "row": 5,
+                  "column": null
+                },
+                "table_changes": {
+                  "rows_added": 1,
+                  "columns_added": 0,
+                  "cells_modified": [
+                    {
+                      "row": 5,
+                      "column": 1,
+                      "old_value": "",
+                      "new_value": "Total Sales"
+                    },
+                    {
+                      "row": 5,
+                      "column": 2,
+                      "old_value": "",
+                      "new_value": "$500,000"
+                    }
+                  ]
+                },
+                "edit_method": "Table Tools Menu"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "application_and_system_actions",
+      "subcategories": [
+        {
+          "subcategory": "application_management",
+          "actions": [
+            {
+              "action_type": "application_open",
+              "meta_information": {
+                /* Standard Properties */
+                "timestamp": "2024-11-16T11:16:00Z",
+                "sequence_order": 34,
+                "screen_context": {
+                  "visible_ui_elements": ["Desktop", "Start Menu"]
+                },
+                "url_path_context": {
+                  "url": null,
+                  "file_path": null
+                },
+                "element_context": {
+                  "element_type": "Application Icon",
+                  "element_name": "Adobe Photoshop"
+                },
+                "application_context": {
+                  "application_name": null,
+                  "application_version": null
+                },
+                "interaction_duration": 1.0,
+                "user_intent_inferred": {
+                  "intent": "Launch Adobe Photoshop"
+                },
+                "previous_action_context": {
+                  "previous_action": "Navigated to Start Menu"
+                },
+                "follow_up_action_context": {
+                  "predicted_next_action": "Edit an image"
+                },
+                "screenshot": {
+                  "name": "Screenshot_2024-11-16_11-16-00.png",
+                  "location": "/screenshots/session123/",
+                  "action_name": "Application Open",
+                  "workflow_name": "Image Editing"
+                },
+                /* Additional Properties Specific to Application Open */
+                "application_launched": "Adobe Photoshop",
+                "application_version": "v25.0",
+                "launch_method": "Start Menu",
+                "action_result": "Application opened successfully"
+              }
+            },
+            {
+              "action_type": "application_close",
+              "meta_information": {
+                /* Standard Properties */
+                "timestamp": "2024-11-16T11:30:00Z",
+                "sequence_order": 45,
+                "screen_context": {
+                  "visible_ui_elements": ["Adobe Photoshop"]
+                },
+                "url_path_context": {
+                  "url": null,
+                  "file_path": null
+                },
+                "element_context": {
+                  "element_type": "Window",
+                  "element_name": "Adobe Photoshop"
+                },
+                "application_context": {
+                  "application_name": "Adobe Photoshop",
+                  "application_version": "v25.0"
+                },
+                "interaction_duration": 0.5,
+                "user_intent_inferred": {
+                  "intent": "Close Adobe Photoshop"
+                },
+                "previous_action_context": {
+                  "previous_action": "Saved image"
+                },
+                "follow_up_action_context": {
+                  "predicted_next_action": "Return to desktop"
+                },
+                "screenshot": {
+                  "name": "Screenshot_2024-11-16_11-30-00.png",
+                  "location": "/screenshots/session123/",
+                  "action_name": "Application Close",
+                  "workflow_name": "Image Editing"
+                },
+                /* Additional Properties Specific to Application Close */
+                "application_closed": "Adobe Photoshop",
+                "close_method": "Click Close Button",
+                "unsaved_changes": false,
+                "action_result": "Application closed successfully"
+              }
+            }
+          ]
+        },
+        {
+          "subcategory": "window_management",
+          "actions": [
+            {
+              "action_type": "window_resize",
+              "meta_information": {
+                /* Standard Properties */
+                "timestamp": "2024-11-16T11:17:00Z",
+                "sequence_order": 35,
+                "screen_context": {
+                  "visible_ui_elements": ["Adobe Photoshop"]
+                },
+                "url_path_context": {
+                  "url": null,
+                  "file_path": null
+                },
+                "element_context": {
+                  "element_type": "Window",
+                  "element_name": "Adobe Photoshop"
+                },
+                "application_context": {
+                  "application_name": "Adobe Photoshop",
+                  "application_version": "v25.0"
+                },
+                "interaction_duration": 1.0,
+                "user_intent_inferred": {
+                  "intent": "Adjust window size for better visibility"
+                },
+                "previous_action_context": {
+                  "previous_action": "Opened application"
+                },
+                "follow_up_action_context": {
+                  "predicted_next_action": "Begin editing image"
+                },
+                "screenshot": {
+                  "name": "Screenshot_2024-11-16_11-17-00.png",
+                  "location": "/screenshots/session123/",
+                  "action_name": "Window Resize",
+                  "workflow_name": "Image Editing"
+                },
+                /* Additional Properties Specific to Window Resize */
+                "original_size": {
+                  "width": 800,
+                  "height": 600
+                },
+                "new_size": {
+                  "width": 1200,
+                  "height": 800
+                },
+                "resize_method": "Click and Drag Window Border",
+                "action_result": "Window resized successfully"
+              }
+            },
+            {
+              "action_type": "window_move",
+              "meta_information": {
+                /* Standard Properties */
+                "timestamp": "2024-11-16T11:18:00Z",
+                "sequence_order": 36,
+                "screen_context": {
+                  "visible_ui_elements": ["Adobe Photoshop"]
+                },
+                "url_path_context": {
+                  "url": null,
+                  "file_path": null
+                },
+                "element_context": {
+                  "element_type": "Window",
+                  "element_name": "Adobe Photoshop"
+                },
+                "application_context": {
+                  "application_name": "Adobe Photoshop",
+                  "application_version": "v25.0"
+                },
+                "interaction_duration": 0.5,
+                "user_intent_inferred": {
+                  "intent": "Reposition window for multitasking"
+                },
+                "previous_action_context": {
+                  "previous_action": "Resized window"
+                },
+                "follow_up_action_context": {
+                  "predicted_next_action": "Open another application"
+                },
+                "screenshot": {
+                  "name": "Screenshot_2024-11-16_11-18-00.png",
+                  "location": "/screenshots/session123/",
+                  "action_name": "Window Move",
+                  "workflow_name": "Desktop Management"
+                },
+                /* Additional Properties Specific to Window Move */
+                "original_position": {
+                  "x": 100,
+                  "y": 100
+                },
+                "new_position": {
+                  "x": 300,
+                  "y": 100
+                },
+                "move_method": "Click and Drag Title Bar",
+                "action_result": "Window moved successfully"
+              }
+            }
+          ]
+        },
+        {
+          "subcategory": "system_authentication",
+          "actions": [
+            {
+              "action_type": "system_login",
+              "meta_information": {
+                /* Standard Properties */
+                "timestamp": "2024-11-16T08:00:00Z",
+                "sequence_order": 1,
+                "screen_context": {
+                  "visible_ui_elements": ["Login Screen"]
+                },
+                "url_path_context": {
+                  "url": null,
+                  "file_path": null
+                },
+                "element_context": {
+                  "element_type": "Login Form",
+                  "element_name": "Username and Password Fields"
+                },
+                "application_context": {
+                  "application_name": "Operating System",
+                  "application_version": "Windows 11"
+                },
+                "interaction_duration": 30.0,
+                "user_intent_inferred": {
+                  "intent": "Log into system account"
+                },
+                "previous_action_context": {
+                  "previous_action": "System booted up"
+                },
+                "follow_up_action_context": {
+                  "predicted_next_action": "Open applications"
+                },
+                "screenshot": {
+                  "name": "Screenshot_2024-11-16_08-00-00.png",
+                  "location": "/screenshots/session123/",
+                  "action_name": "System Login",
+                  "workflow_name": "Startup"
+                },
+                /* Additional Properties Specific to System Login */
+                "username": "johndoe",
+                "authentication_method": "Password",
+                "login_result": "Success",
+                "login_duration": 5.0  // Time taken to authenticate
+              }
+            },
+            {
+              "action_type": "system_logout",
+              "meta_information": {
+                /* Standard Properties */
+                "timestamp": "2024-11-16T17:00:00Z",
+                "sequence_order": 50,
+                "screen_context": {
+                  "visible_ui_elements": ["Desktop"]
+                },
+                "url_path_context": {
+                  "url": null,
+                  "file_path": null
+                },
+                "element_context": {
+                  "element_type": "Start Menu",
+                  "element_name": "Logout Option"
+                },
+                "application_context": {
+                  "application_name": "Operating System",
+                  "application_version": "Windows 11"
+                },
+                "interaction_duration": 1.0,
+                "user_intent_inferred": {
+                  "intent": "Log out of system account"
+                },
+                "previous_action_context": {
+                  "previous_action": "Closed all applications"
+                },
+                "follow_up_action_context": {
+                  "predicted_next_action": "System shutdown"
+                },
+                "screenshot": {
+                  "name": "Screenshot_2024-11-16_17-00-00.png",
+                  "location": "/screenshots/session123/",
+                  "action_name": "System Logout",
+                  "workflow_name": "End of Day"
+                },
+                /* Additional Properties Specific to System Logout */
+                "username": "johndoe",
+                "logout_method": "Start Menu > Logout",
+                "logout_result": "Success"
+              }
+            }
+          ]
+        },
+        {
+          "subcategory": "system_power",
+          "actions": [
+            {
+              "action_type": "system_shutdown",
+              "meta_information": {
+                /* Standard Properties */
+                "timestamp": "2024-11-16T17:05:00Z",
+                "sequence_order": 51,
+                "screen_context": {
+                  "visible_ui_elements": ["Shutdown Menu"]
+                },
+                "url_path_context": {
+                  "url": null,
+                  "file_path": null
+                },
+                "element_context": {
+                  "element_type": "Menu Option",
+                  "element_name": "Shut Down"
+                },
+                "application_context": {
+                  "application_name": "Operating System",
+                  "application_version": "Windows 11"
+                },
+                "interaction_duration": 0.5,
+                "user_intent_inferred": {
+                  "intent": "Power off the system"
+                },
+                "previous_action_context": {
+                  "previous_action": "Logged out of account"
+                },
+                "follow_up_action_context": {
+                  "predicted_next_action": "System powers off"
+                },
+                "screenshot": {
+                  "name": "Screenshot_2024-11-16_17-05-00.png",
+                  "location": "/screenshots/session123/",
+                  "action_name": "System Shutdown",
+                  "workflow_name": "End of Day"
+                },
+                /* Additional Properties Specific to System Shutdown */
+                "shutdown_method": "Start Menu > Shut Down",
+                "shutdown_type": "Full Shutdown",
+                "action_result": "System is shutting down"
+              }
+            }
+          ]
+        },
+        {
+          "subcategory": "system_settings",
+          "actions": [
+            {
+              "action_type": "system_settings_change",
+              "meta_information": {
+                /* Standard Properties */
+                "timestamp": "2024-11-16T11:19:00Z",
+                "sequence_order": 37,
+                "screen_context": {
+                  "visible_ui_elements": ["Settings App"]
+                },
+                "url_path_context": {
+                  "url": null,
+                  "file_path": null
+                },
+                "element_context": {
+                  "element_type": "Settings Option",
+                  "element_name": "Display Settings"
+                },
+                "application_context": {
+                  "application_name": "Settings",
+                  "application_version": "v1.0"
+                },
+                "interaction_duration": 2.0,
+                "user_intent_inferred": {
+                  "intent": "Adjust system display settings"
+                },
+                "previous_action_context": {
+                  "previous_action": "Opened Settings App"
+                },
+                "follow_up_action_context": {
+                  "predicted_next_action": "Test new settings"
+                },
+                "screenshot": {
+                  "name": "Screenshot_2024-11-16_11-19-00.png",
+                  "location": "/screenshots/session123/",
+                  "action_name": "System Settings Change",
+                  "workflow_name": "System Configuration"
+                },
+                /* Additional Properties Specific to System Settings Change */
+                "setting_changed": "Display Brightness",
+                "original_value": "70%",
+                "new_value": "50%",
+                "change_method": "Slider Adjustment",
+                "action_result": "Settings updated successfully"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "communication_actions",
+      "subcategories": [
+        {
+          "subcategory": "email_operations",
+          "actions": [
+            {
+              "action_type": "email_read",
+              "meta_information": {
+                /* Standard Properties */
+                "timestamp": "2024-11-16T11:20:00Z",
+                "sequence_order": 38,
+                "screen_context": {
+                  "visible_ui_elements": ["Email Client Inbox"]
+                },
+                "url_path_context": {
+                  "url": null,
+                  "file_path": null
+                },
+                "element_context": {
+                  "element_type": "Email",
+                  "element_name": "Subject: Meeting Confirmation"
+                },
+                "application_context": {
+                  "application_name": "Microsoft Outlook",
+                  "application_version": "v2023"
+                },
+                "interaction_duration": 2.0,
+                "user_intent_inferred": {
+                  "intent": "Read incoming email"
+                },
+                "previous_action_context": {
+                  "previous_action": "Checked inbox"
+                },
+                "follow_up_action_context": {
+                  "predicted_next_action": "Reply to email"
+                },
+                "screenshot": {
+                  "name": "Screenshot_2024-11-16_11-20-00.png",
+                  "location": "/screenshots/session123/",
+                  "action_name": "Email Read",
+                  "workflow_name": "Email Management"
+                },
+                /* Additional Properties Specific to Email Read */
+                "email_subject": "Meeting Confirmation",
+                "email_sender": "alice@example.com",
+                "email_recipients": ["user@example.com"],
+                "email_timestamp": "2024-11-16T11:15:00Z",
+                "email_unread": true,
+                "action_result": "Email opened successfully"
+              }
+            },
+            {
+              "action_type": "email_write",
+              "meta_information": {
+                /* Standard Properties */
+                "timestamp": "2024-11-16T11:25:00Z",
+                "sequence_order": 39,
+                "screen_context": {
+                  "visible_ui_elements": ["Compose Email Window"]
+                },
+                "url_path_context": {
+                  "url": null,
+                  "file_path": null
+                },
+                "element_context": {
+                  "element_type": "Compose Window",
+                  "element_name": "New Email"
+                },
+                "application_context": {
+                  "application_name": "Microsoft Outlook",
+                  "application_version": "v2023"
+                },
+                "interaction_duration": 10.0,
+                "user_intent_inferred": {
+                  "intent": "Compose a new email"
+                },
+                "previous_action_context": {
+                  "previous_action": "Clicked 'New Email' button"
+                },
+                "follow_up_action_context": {
+                  "predicted_next_action": "Send email"
+                },
+                "screenshot": {
+                  "name": "Screenshot_2024-11-16_11-25-00.png",
+                  "location": "/screenshots/session123/",
+                  "action_name": "Email Write",
+                  "workflow_name": "Email Management"
+                },
+                /* Additional Properties Specific to Email Write */
+                "email_subject": "Project Update",
+                "email_recipients": ["team@example.com"],
+                "email_body_preview": "Dear team, Here is the latest update...",
+                "attachments": [],
+                "draft_saved": false,
+                "action_result": "Email composed"
+              }
+            },
+            {
+              "action_type": "email_send",
+              "meta_information": {
+                /* Standard Properties */
+                "timestamp": "2024-11-16T11:35:00Z",
+                "sequence_order": 40,
+                "screen_context": {
+                  "visible_ui_elements": ["Compose Email Window"]
+                },
+                "url_path_context": {
+                  "url": null,
+                  "file_path": null
+                },
+                "element_context": {
+                  "element_type": "Button",
+                  "element_name": "Send"
+                },
+                "application_context": {
+                  "application_name": "Microsoft Outlook",
+                  "application_version": "v2023"
+                },
+                "interaction_duration": 0.5,
+                "user_intent_inferred": {
+                  "intent": "Send composed email"
+                },
+                "previous_action_context": {
+                  "previous_action": "Composed email"
+                },
+                "follow_up_action_context": {
+                  "predicted_next_action": "Return to inbox"
+                },
+                "screenshot": {
+                  "name": "Screenshot_2024-11-16_11-35-00.png",
+                  "location": "/screenshots/session123/",
+                  "action_name": "Email Send",
+                  "workflow_name": "Email Management"
+                },
+                /* Additional Properties Specific to Email Send */
+                "email_subject": "Project Update",
+                "email_recipients": ["team@example.com"],
+                "attachments": [],
+                "send_method": "Click Send Button",
+                "action_result": "Email sent successfully"
+              }
+            },
+            {
+              "action_type": "scan_inbox",
+              "meta_information": {
+                /* Standard Properties */
+                "timestamp": "2024-11-16T11:50:00Z",
+                "sequence_order": 46,
+                "screen_context": {
+                  "visible_ui_elements": ["Email Client Search Bar"]
+                },
+                "url_path_context": {
+                  "url": null,
+                  "file_path": null
+                },
+                "element_context": {
+                  "element_type": "Search Field",
+                  "element_name": "Inbox Search"
+                },
+                "application_context": {
+                  "application_name": "Microsoft Outlook",
+                  "application_version": "v2023"
+                },
+                "interaction_duration": 5.0,
+                "user_intent_inferred": {
+                  "intent": "Scan inbox for specific emails"
+                },
+                "previous_action_context": {
+                  "previous_action": "Checked new emails"
+                },
+                "follow_up_action_context": {
+                  "predicted_next_action": "Review scan results"
+                },
+                "screenshot": {
+                  "name": "Screenshot_2024-11-16_11-50-00.png",
+                  "location": "/screenshots/session123/",
+                  "action_name": "Scan Inbox",
+                  "workflow_name": "Email Management"
+                },
+                /* Additional Properties Specific to Scan Inbox */
+                "scan_criteria": {
+                  "subject_keywords": ["Invoice", "Payment"],
+                  "body_keywords": ["Overdue", "Urgent"],
+                  "attachment_types": ["pdf", "docx"],
+                  "date_range": {
+                    "start_date": "2024-11-01",
+                    "end_date": "2024-11-16"
+                  },
+                  "sender_emails": ["billing@example.com"]
+                },
+                "emails_found": [
+                  {
+                    "email_subject": "Invoice for October",
+                    "email_sender": "billing@example.com",
+                    "email_timestamp": "2024-11-10T09:00:00Z",
+                    "has_attachments": true
+                  },
+                  {
+                    "email_subject": "Payment Reminder",
+                    "email_sender": "accounts@example.com",
+                    "email_timestamp": "2024-11-12T15:30:00Z",
+                    "has_attachments": false
+                  }
+                  /* ... more emails if applicable ... */
+                ],
+                "number_of_emails_found": 5,
+                "action_result": "Scan completed successfully"
+              }
+            },
+            {
+              "action_type": "email_search",
+              "meta_information": {
+                /* Standard Properties */
+                "timestamp": "2024-11-16T11:55:00Z",
+                "sequence_order": 47,
+                "screen_context": {
+                  "visible_ui_elements": ["Email Client Search Bar"]
+                },
+                "url_path_context": {
+                  "url": null,
+                  "file_path": null
+                },
+                "element_context": {
+                  "element_type": "Search Field",
+                  "element_name": "Inbox Search"
+                },
+                "application_context": {
+                  "application_name": "Microsoft Outlook",
+                  "application_version": "v2023"
+                },
+                "interaction_duration": 5.0,
+                "user_intent_inferred": {
+                  "intent": "Find specific emails in inbox"
+                },
+                "previous_action_context": {
+                  "previous_action": "Checked new emails"
+                },
+                "follow_up_action_context": {
+                  "predicted_next_action": "Review search results"
+                },
+                "screenshot": {
+                  "name": "Screenshot_2024-11-16_11-55-00.png",
+                  "location": "/screenshots/session123/",
+                  "action_name": "Email Search",
+                  "workflow_name": "Email Management"
+                },
+                /* Additional Properties Specific to Email Search */
+                "search_criteria": {
+                  "subject_keywords": ["Invoice", "Payment"],
+                  "body_keywords": ["Overdue", "Urgent"],
+                  "attachment_types": ["pdf", "docx"],
+                  "date_range": {
+                    "start_date": "2024-11-01",
+                    "end_date": "2024-11-16"
+                  },
+                  "sender_emails": ["billing@example.com"]
+                },
+                "number_of_emails_found": 5,
+                "search_filters_applied": true,
+                "action_result": "Search completed successfully"
+              }
+            }
+          ]
+        },
+        {
+          "subcategory": "chat_operations",
+          "actions": [
+            {
+              "action_type": "chat_message_send",
+              "meta_information": {
+                /* Standard Properties */
+                "timestamp": "2024-11-16T11:40:00Z",
+                "sequence_order": 41,
+                "screen_context": {
+                  "visible_ui_elements": ["Chat Application"]
+                },
+                "url_path_context": {
+                  "url": null,
+                  "file_path": null
+                },
+                "element_context": {
+                  "element_type": "Chat Window",
+                  "element_name": "Team Chat"
+                },
+                "application_context": {
+                  "application_name": "Slack",
+                  "application_version": "v4.20.0"
+                },
+                "interaction_duration": 1.0,
+                "user_intent_inferred": {
+                  "intent": "Send message to team"
+                },
+                "previous_action_context": {
+                  "previous_action": "Typed message"
+                },
+                "follow_up_action_context": {
+                  "predicted_next_action": "Wait for replies"
+                },
+                "screenshot": {
+                  "name": "Screenshot_2024-11-16_11-40-00.png",
+                  "location": "/screenshots/session123/",
+                  "action_name": "Chat Message Send",
+                  "workflow_name": "Team Communication"
+                },
+                /* Additional Properties Specific to Chat Message Send */
+                "message_content": "Please review the latest document.",
+                "recipient": "Team Channel",
+                "message_type": "Text",
+                "attachments": [],
+                "action_result": "Message sent"
+              }
+            }
+          ]
+        },
+        {
+          "subcategory": "call_operations",
+          "actions": [
+            {
+              "action_type": "call_start",
+              "meta_information": {
+                /* Standard Properties */
+                "timestamp": "2024-11-16T11:45:00Z",
+                "sequence_order": 42,
+                "screen_context": {
+                  "visible_ui_elements": ["Video Call Application"]
+                },
+                "url_path_context": {
+                  "url": null,
+                  "file_path": null
+                },
+                "element_context": {
+                  "element_type": "Contact",
+                  "element_name": "Alice"
+                },
+                "application_context": {
+                  "application_name": "Zoom",
+                  "application_version": "v5.7.0"
+                },
+                "interaction_duration": 0.5,
+                "user_intent_inferred": {
+                  "intent": "Start video call with Alice"
+                },
+                "previous_action_context": {
+                  "previous_action": "Selected contact"
+                },
+                "follow_up_action_context": {
+                  "predicted_next_action": "Conduct meeting"
+                },
+                "screenshot": {
+                  "name": "Screenshot_2024-11-16_11-45-00.png",
+                  "location": "/screenshots/session123/",
+                  "action_name": "Call Start",
+                  "workflow_name": "Communication"
+                },
+                /* Additional Properties Specific to Call Start */
+                "call_type": "Video",
+                "participants": ["Alice"],
+                "call_method": "Initiated from Contacts",
+                "action_result": "Call started"
+              }
+            },
+            {
+              "action_type": "call_end",
+              "meta_information": {
+                /* Standard Properties */
+                "timestamp": "2024-11-16T12:15:00Z",
+                "sequence_order": 43,
+                "screen_context": {
+                  "visible_ui_elements": ["Video Call Application"]
+                },
+                "url_path_context": {
+                  "url": null,
+                  "file_path": null
+                },
+                "element_context": {
+                  "element_type": "Call Controls",
+                  "element_name": "End Call Button"
+                },
+                "application_context": {
+                  "application_name": "Zoom",
+                  "application_version": "v5.7.0"
+                },
+                "interaction_duration": 0.2,
+                "user_intent_inferred": {
+                  "intent": "End video call"
+                },
+                "previous_action_context": {
+                  "previous_action": "Concluded meeting"
+                },
+                "follow_up_action_context": {
+                  "predicted_next_action": "Send follow-up email"
+                },
+                "screenshot": {
+                  "name": "Screenshot_2024-11-16_12-15-00.png",
+                  "location": "/screenshots/session123/",
+                  "action_name": "Call End",
+                  "workflow_name": "Communication"
+                },
+                /* Additional Properties Specific to Call End */
+                "call_duration": 1800,  // Duration in seconds
+                "participants": ["Alice"],
+                "end_method": "Clicked End Call Button",
+                "action_result": "Call ended"
+              }
+            }
+          ]
+        },
+        {
+          "subcategory": "text_message_operations",
+          "actions": [
+            {
+              "action_type": "text_message_send",
+              "meta_information": {
+                /* Standard Properties */
+                "timestamp": "2024-11-16T12:20:00Z",
+                "sequence_order": 44,
+                "screen_context": {
+                  "visible_ui_elements": ["Messaging App"]
+                },
+                "url_path_context": {
+                  "url": null,
+                  "file_path": null
+                },
+                "element_context": {
+                  "element_type": "Conversation",
+                  "element_name": "Bob"
+                },
+                "application_context": {
+                  "application_name": "WhatsApp",
+                  "application_version": "v2.21.20"
+                },
+                "interaction_duration": 0.5,
+                "user_intent_inferred": {
+                  "intent": "Send text message to Bob"
+                },
+                "previous_action_context": {
+                  "previous_action": "Typed message"
+                },
+                "follow_up_action_context": {
+                  "predicted_next_action": "Await reply"
+                },
+                "screenshot": {
+                  "name": "Screenshot_2024-11-16_12-20-00.png",
+                  "location": "/screenshots/session123/",
+                  "action_name": "Text Message Send",
+                  "workflow_name": "Personal Communication"
+                },
+                /* Additional Properties Specific to Text Message Send */
+                "message_content": "Hey Bob, are we still on for tonight?",
+                "recipient": "Bob",
+                "message_type": "Text",
+                "attachments": [],
+                "action_result": "Message sent"
+              }
+            },
+            {
+              "action_type": "text_message_reply",
+              "meta_information": {
+                /* Standard Properties */
+                "timestamp": "2024-11-16T12:25:00Z",
+                "sequence_order": 45,
+                "screen_context": {
+                  "visible_ui_elements": ["Messaging App"]
+                },
+                "url_path_context": {
+                  "url": null,
+                  "file_path": null
+                },
+                "element_context": {
+                  "element_type": "Conversation",
+                  "element_name": "Bob"
+                },
+                "application_context": {
+                  "application_name": "WhatsApp",
+                  "application_version": "v2.21.20"
+                },
+                "interaction_duration": 0.7,
+                "user_intent_inferred": {
+                  "intent": "Reply to Bob's message"
+                },
+                "previous_action_context": {
+                  "previous_action": "Received message from Bob"
+                },
+                "follow_up_action_context": {
+                  "predicted_next_action": "Continue conversation"
+                },
+                "screenshot": {
+                  "name": "Screenshot_2024-11-16_12-25-00.png",
+                  "location": "/screenshots/session123/",
+                  "action_name": "Text Message Reply",
+                  "workflow_name": "Personal Communication"
+                },
+                /* Additional Properties Specific to Text Message Reply */
+                "message_content": "Great, see you then!",
+                "recipient": "Bob",
+                "message_type": "Text",
+                "attachments": [],
+                "reply_to_message": "Sure, let's meet at 7 PM.",
+                "action_result": "Reply sent"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "interaction_with_media",
+      "subcategories": [
+        {
+          "subcategory": "media_playback",
+          "actions": [
+            {
+              "action_type": "media_play",
+              "meta_information": {
+                /* Standard Properties */
+                "timestamp": "2024-11-16T12:30:00Z",
+                "sequence_order": 46,
+                "screen_context": {
+                  "visible_ui_elements": ["Media Player"]
+                },
+                "url_path_context": {
+                  "url": null,
+                  "file_path": "/Music/song.mp3"
+                },
+                "element_context": {
+                  "element_type": "Play Button",
+                  "element_name": "Play"
+                },
+                "application_context": {
+                  "application_name": "VLC Media Player",
+                  "application_version": "v3.0.11"
+                },
+                "interaction_duration": 0.5,
+                "user_intent_inferred": {
+                  "intent": "Play audio file"
+                },
+                "previous_action_context": {
+                  "previous_action": "Selected media file"
+                },
+                "follow_up_action_context": {
+                  "predicted_next_action": "Listen to music"
+                },
+                "screenshot": {
+                  "name": "Screenshot_2024-11-16_12-30-00.png",
+                  "location": "/screenshots/session123/",
+                  "action_name": "Media Play",
+                  "workflow_name": "Media Consumption"
+                },
+                /* Additional Properties Specific to Media Play */
+                "media_type": "Audio",
+                "media_title": "song.mp3",
+                "media_duration": 240,  // Duration in seconds
+                "playback_position": 0,  // Position in seconds
+                "action_result": "Media started playing"
+              }
+            },
+            {
+              "action_type": "media_pause",
+              "meta_information": {
+                /* Standard Properties */
+                "timestamp": "2024-11-16T12:35:00Z",
+                "sequence_order": 47,
+                "screen_context": {
+                  "visible_ui_elements": ["Media Player"]
+                },
+                "url_path_context": {
+                  "url": null,
+                  "file_path": "/Music/song.mp3"
+                },
+                "element_context": {
+                  "element_type": "Pause Button",
+                  "element_name": "Pause"
+                },
+                "application_context": {
+                  "application_name": "VLC Media Player",
+                  "application_version": "v3.0.11"
+                },
+                "interaction_duration": 0.2,
+                "user_intent_inferred": {
+                  "intent": "Pause audio playback"
+                },
+                "previous_action_context": {
+                  "previous_action": "Listening to music"
+                },
+                "follow_up_action_context": {
+                  "predicted_next_action": "Resume playback later"
+                },
+                "screenshot": {
+                  "name": "Screenshot_2024-11-16_12-35-00.png",
+                  "location": "/screenshots/session123/",
+                  "action_name": "Media Pause",
+                  "workflow_name": "Media Consumption"
+                },
+                /* Additional Properties Specific to Media Pause */
+                "media_type": "Audio",
+                "media_title": "song.mp3",
+                "playback_position": 150,  // Position in seconds
+                "action_result": "Media paused"
+              }
+            },
+            {
+              "action_type": "media_seek",
+              "meta_information": {
+                /* Standard Properties */
+                "timestamp": "2024-11-16T12:36:00Z",
+                "sequence_order": 48,
+                "screen_context": {
+                  "visible_ui_elements": ["Media Player"]
+                },
+                "url_path_context": {
+                  "url": null,
+                  "file_path": "/Music/song.mp3"
+                },
+                "element_context": {
+                  "element_type": "Seek Bar",
+                  "element_name": "Playback Position"
+                },
+                "application_context": {
+                  "application_name": "VLC Media Player",
+                  "application_version": "v3.0.11"
+                },
+                "interaction_duration": 1.0,
+                "user_intent_inferred": {
+                  "intent": "Skip to specific part of the song"
+                },
+                "previous_action_context": {
+                  "previous_action": "Paused playback"
+                },
+                "follow_up_action_context": {
+                  "predicted_next_action": "Resume playback"
+                },
+                "screenshot": {
+                  "name": "Screenshot_2024-11-16_12-36-00.png",
+                  "location": "/screenshots/session123/",
+                  "action_name": "Media Seek",
+                  "workflow_name": "Media Consumption"
+                },
+                /* Additional Properties Specific to Media Seek */
+                "media_type": "Audio",
+                "media_title": "song.mp3",
+                "original_position": 150,  // Position in seconds
+                "new_position": 90,
+                "seek_method": "Drag Seek Bar",
+                "action_result": "Playback position changed"
+              }
+            },
+            {
+              "action_type": "media_volume_change",
+              "meta_information": {
+                /* Standard Properties */
+                "timestamp": "2024-11-16T12:37:00Z",
+                "sequence_order": 49,
+                "screen_context": {
+                  "visible_ui_elements": ["Media Player"]
+                },
+                "url_path_context": {
+                  "url": null,
+                  "file_path": "/Music/song.mp3"
+                },
+                "element_context": {
+                  "element_type": "Volume Control",
+                  "element_name": "Volume Slider"
+                },
+                "application_context": {
+                  "application_name": "VLC Media Player",
+                  "application_version": "v3.0.11"
+                },
+                "interaction_duration": 0.5,
+                "user_intent_inferred": {
+                  "intent": "Adjust volume level"
+                },
+                "previous_action_context": {
+                  "previous_action": "Resumed playback"
+                },
+                "follow_up_action_context": {
+                  "predicted_next_action": "Continue listening"
+                },
+                "screenshot": {
+                  "name": "Screenshot_2024-11-16_12-37-00.png",
+                  "location": "/screenshots/session123/",
+                  "action_name": "Media Volume Change",
+                  "workflow_name": "Media Consumption"
+                },
+                /* Additional Properties Specific to Media Volume Change */
+                "original_volume": 70,  // Percentage
+                "new_volume": 50,
+                "change_method": "Adjust Volume Slider",
+                "action_result": "Volume adjusted"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "collaboration_and_project_management_actions",
+      "subcategories": [
+        {
+          "subcategory": "task_management",
+          "actions": [
+            {
+              "action_type": "task_create",
+              "meta_information": {
+                /* Standard Properties */
+                "timestamp": "2024-11-16T13:00:00Z",
+                "sequence_order": 50,
+                "screen_context": {
+                  "visible_ui_elements": ["Project Management Tool"]
+                },
+                "url_path_context": {
+                  "url": "https://trello.com/board/project",
+                  "file_path": null
+                },
+                "element_context": {
+                  "element_type": "Button",
+                  "element_name": "Add Card"
+                },
+                "application_context": {
+                  "application_name": "Trello",
+                  "application_version": "Web App"
+                },
+                "interaction_duration": 2.0,
+                "user_intent_inferred": {
+                  "intent": "Create new task"
+                },
+                "previous_action_context": {
+                  "previous_action": "Viewed task list"
+                },
+                "follow_up_action_context": {
+                  "predicted_next_action": "Assign task to team member"
+                },
+                "screenshot": {
+                  "name": "Screenshot_2024-11-16_13-00-00.png",
+                  "location": "/screenshots/session123/",
+                  "action_name": "Task Create",
+                  "workflow_name": "Project Management"
+                },
+                /* Additional Properties Specific to Task Create */
+                "task_title": "Design Homepage Mockup",
+                "task_description": "Create initial design for homepage",
+                "assigned_to": ["designer@example.com"],
+                "due_date": "2024-11-20T00:00:00Z",
+                "priority": "High",
+                "action_result": "Task created"
+              }
+            },
+            {
+              "action_type": "task_update",
+              "meta_information": {
+                /* Standard Properties */
+                "timestamp": "2024-11-16T13:15:00Z",
+                "sequence_order": 51,
+                "screen_context": {
+                  "visible_ui_elements": ["Project Management Tool"]
+                },
+                "url_path_context": {
+                  "url": "https://trello.com/board/project",
+                  "file_path": null
+                },
+                "element_context": {
+                  "element_type": "Task Card",
+                  "element_name": "Design Homepage Mockup"
+                },
+                "application_context": {
+                  "application_name": "Trello",
+                  "application_version": "Web App"
+                },
+                "interaction_duration": 3.0,
+                "user_intent_inferred": {
+                  "intent": "Update task details"
+                },
+                "previous_action_context": {
+                  "previous_action": "Opened task card"
+                },
+                "follow_up_action_context": {
+                  "predicted_next_action": "Notify team members"
+                },
+                "screenshot": {
+                  "name": "Screenshot_2024-11-16_13-15-00.png",
+                  "location": "/screenshots/session123/",
+                  "action_name": "Task Update",
+                  "workflow_name": "Project Management"
+                },
+                /* Additional Properties Specific to Task Update */
+                "task_title": "Design Homepage Mockup",
+                "updates_made": {
+                  "due_date": {
+                    "old_value": "2024-11-20T00:00:00Z",
+                    "new_value": "2024-11-22T00:00:00Z"
+                  },
+                  "priority": {
+                    "old_value": "High",
+                    "new_value": "Medium"
+                  }
+                },
+                "action_result": "Task updated"
+              }
+            },
+            {
+              "action_type": "comment_add",
+              "meta_information": {
+                /* Standard Properties */
+                "timestamp": "2024-11-16T13:20:00Z",
+                "sequence_order": 52,
+                "screen_context": {
+                  "visible_ui_elements": ["Project Management Tool"]
+                },
+                "url_path_context": {
+                  "url": "https://trello.com/board/project",
+                  "file_path": null
+                },
+                "element_context": {
+                  "element_type": "Task Card",
+                  "element_name": "Design Homepage Mockup"
+                },
+                "application_context": {
+                  "application_name": "Trello",
+                  "application_version": "Web App"
+                },
+                "interaction_duration": 1.5,
+                "user_intent_inferred": {
+                  "intent": "Add comment to task"
+                },
+                "previous_action_context": {
+                  "previous_action": "Updated task details"
+                },
+                "follow_up_action_context": {
+                  "predicted_next_action": "Await team feedback"
+                },
+                "screenshot": {
+                  "name": "Screenshot_2024-11-16_13-20-00.png",
+                  "location": "/screenshots/session123/",
+                  "action_name": "Comment Add",
+                  "workflow_name": "Project Management"
+                },
+                /* Additional Properties Specific to Comment Add */
+                "comment_content": "Please note the new deadline.",
+                "comment_author": "manager@example.com",
+                "action_result": "Comment added"
+              }
+            },
+            {
+              "action_type": "task_complete",
+              "meta_information": {
+                /* Standard Properties */
+                "timestamp": "2024-11-16T14:00:00Z",
+                "sequence_order": 53,
+                "screen_context": {
+                  "visible_ui_elements": ["Project Management Tool"]
+                },
+                "url_path_context": {
+                  "url": "https://trello.com/board/project",
+                  "file_path": null
+                },
+                "element_context": {
+                  "element_type": "Task Card",
+                  "element_name": "Design Homepage Mockup"
+                },
+                "application_context": {
+                  "application_name": "Trello",
+                  "application_version": "Web App"
+                },
+                "interaction_duration": 0.5,
+                "user_intent_inferred": {
+                  "intent": "Mark task as completed"
+                },
+                "previous_action_context": {
+                  "previous_action": "Reviewed task deliverables"
+                },
+                "follow_up_action_context": {
+                  "predicted_next_action": "Notify stakeholders"
+                },
+                "screenshot": {
+                  "name": "Screenshot_2024-11-16_14-00-00.png",
+                  "location": "/screenshots/session123/",
+                  "action_name": "Task Complete",
+                  "workflow_name": "Project Management"
+                },
+                /* Additional Properties Specific to Task Complete */
+                "task_title": "Design Homepage Mockup",
+                "completion_method": "Moved to 'Done' column",
+                "action_result": "Task marked as complete"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "specialized_actions",
+      "subcategories": [
+        {
+          "subcategory": "ui_element_interactions",
+          "actions": [
+            {
+              "action_type": "dropdown_select",
+              "meta_information": {
+                /* Standard Properties */
+                "timestamp": "2024-11-16T14:10:00Z",
+                "sequence_order": 54,
+                "screen_context": {
+                  "visible_ui_elements": ["Settings Page"]
+                },
+                "url_path_context": {
+                  "url": "https://example.com/settings",
+                  "file_path": null
+                },
+                "element_context": {
+                  "element_type": "Dropdown Menu",
+                  "element_name": "Language Selection"
+                },
+                "application_context": {
+                  "application_name": "Web Browser",
+                  "application_version": "Chrome v118"
+                },
+                "interaction_duration": 1.0,
+                "user_intent_inferred": {
+                  "intent": "Change language preference"
+                },
+                "previous_action_context": {
+                  "previous_action": "Navigated to settings"
+                },
+                "follow_up_action_context": {
+                  "predicted_next_action": "Save settings"
+                },
+                "screenshot": {
+                  "name": "Screenshot_2024-11-16_14-10-00.png",
+                  "location": "/screenshots/session123/",
+                  "action_name": "Dropdown Select",
+                  "workflow_name": "User Settings"
+                },
+                /* Additional Properties Specific to Dropdown Select */
+                "selected_option": "Spanish",
+                "previous_option": "English",
+                "action_result": "Option selected"
+              }
+            },
+            {
+              "action_type": "checkbox_toggle",
+              "meta_information": {
+                /* Standard Properties */
+                "timestamp": "2024-11-16T14:12:00Z",
+                "sequence_order": 55,
+                "screen_context": {
+                  "visible_ui_elements": ["Settings Page"]
+                },
+                "url_path_context": {
+                  "url": "https://example.com/settings",
+                  "file_path": null
+                },
+                "element_context": {
+                  "element_type": "Checkbox",
+                  "element_name": "Enable Notifications"
+                },
+                "application_context": {
+                  "application_name": "Web Browser",
+                  "application_version": "Chrome v118"
+                },
+                "interaction_duration": 0.5,
+                "user_intent_inferred": {
+                  "intent": "Toggle notification settings"
+                },
+                "previous_action_context": {
+                  "previous_action": "Changed language setting"
+                },
+                "follow_up_action_context": {
+                  "predicted_next_action": "Save settings"
+                },
+                "screenshot": {
+                  "name": "Screenshot_2024-11-16_14-12-00.png",
+                  "location": "/screenshots/session123/",
+                  "action_name": "Checkbox Toggle",
+                  "workflow_name": "User Settings"
+                },
+                /* Additional Properties Specific to Checkbox Toggle */
+                "checkbox_state": "Checked",
+                "previous_state": "Unchecked",
+                "action_result": "Checkbox toggled"
+              }
+            },
+            {
+              "action_type": "slider_adjustment",
+              "meta_information": {
+                /* Standard Properties */
+                "timestamp": "2024-11-16T14:14:00Z",
+                "sequence_order": 56,
+                "screen_context": {
+                  "visible_ui_elements": ["Audio Settings"]
+                },
+                "url_path_context": {
+                  "url": "https://example.com/settings/audio",
+                  "file_path": null
+                },
+                "element_context": {
+                  "element_type": "Slider",
+                  "element_name": "Volume Control"
+                },
+                "application_context": {
+                  "application_name": "Web Browser",
+                  "application_version": "Chrome v118"
+                },
+                "interaction_duration": 1.0,
+                "user_intent_inferred": {
+                  "intent": "Adjust volume level"
+                },
+                "previous_action_context": {
+                  "previous_action": "Toggled notifications"
+                },
+                "follow_up_action_context": {
+                  "predicted_next_action": "Test audio output"
+                },
+                "screenshot": {
+                  "name": "Screenshot_2024-11-16_14-14-00.png",
+                  "location": "/screenshots/session123/",
+                  "action_name": "Slider Adjustment",
+                  "workflow_name": "Audio Settings"
+                },
+                /* Additional Properties Specific to Slider Adjustment */
+                "slider_name": "Volume",
+                "original_value": 70,
+                "new_value": 85,
+                "adjustment_method": "Drag Slider",
+                "action_result": "Slider adjusted"
+              }
+            },
+            {
+              "action_type": "calendar_interaction",
+              "meta_information": {
+                /* Standard Properties */
+                "timestamp": "2024-11-16T14:16:00Z",
+                "sequence_order": 57,
+                "screen_context": {
+                  "visible_ui_elements": ["Calendar Widget"]
+                },
+                "url_path_context": {
+                  "url": "https://example.com/schedule",
+                  "file_path": null
+                },
+                "element_context": {
+                  "element_type": "Calendar",
+                  "element_name": "Date Picker"
+                },
+                "application_context": {
+                  "application_name": "Web Browser",
+                  "application_version": "Chrome v118"
+                },
+                "interaction_duration": 1.5,
+                "user_intent_inferred": {
+                  "intent": "Schedule an event"
+                },
+                "previous_action_context": {
+                  "previous_action": "Adjusted volume settings"
+                },
+                "follow_up_action_context": {
+                  "predicted_next_action": "Set event details"
+                },
+                "screenshot": {
+                  "name": "Screenshot_2024-11-16_14-16-00.png",
+                  "location": "/screenshots/session123/",
+                  "action_name": "Calendar Interaction",
+                  "workflow_name": "Event Scheduling"
+                },
+                /* Additional Properties Specific to Calendar Interaction */
+                "selected_date": "2024-11-25",
+                "selected_time": "14:00",
+                "event_title": "Team Meeting",
+                "action_result": "Date and time selected"
+              }
+            },
+            {
+              "action_type": "loop",
+              "meta_information": {
+                /* Standard Properties */
+                "timestamp": "2024-11-16T14:17:00Z",
+                "sequence_order": 58,
+                "screen_context": {
+                  "visible_ui_elements": ["Automation Script Editor"]
+                },
+                "url_path_context": {
+                  "url": null,
+                  "file_path": "/Scripts/automation_script.py"
+                },
+                "element_context": {
+                  "element_type": "Code Block",
+                  "element_name": "For Loop"
+                },
+                "application_context": {
+                  "application_name": "PyCharm",
+                  "application_version": "v2024.1"
+                },
+                "interaction_duration": 5.0,
+                "user_intent_inferred": {
+                  "intent": "Iterate over a set of actions"
+                },
+                "previous_action_context": {
+                  "previous_action": "Defined loop parameters"
+                },
+                "follow_up_action_context": {
+                  "predicted_next_action": "Execute loop"
+                },
+                "screenshot": {
+                  "name": "Screenshot_2024-11-16_14-17-00.png",
+                  "location": "/screenshots/session123/",
+                  "action_name": "Loop",
+                  "workflow_name": "Automation Script"
+                },
+                /* Additional Properties Specific to Loop */
+                "loop_type": "For Loop",
+                "loop_condition": "for i in range(0, 10):",
+                "iterations": 10,
+                "loop_body": [
+                  "click_button('Next')",
+                  "wait(2)"
+                ],
+                "action_result": "Loop defined"
+              }
+            },
+            {
+              "action_type": "wait",
+              "meta_information": {
+                /* Standard Properties */
+                "timestamp": "2024-11-16T14:18:00Z",
+                "sequence_order": 59,
+                "screen_context": {
+                  "visible_ui_elements": ["Automation Script Editor"]
+                },
+                "url_path_context": {
+                  "url": null,
+                  "file_path": "/Scripts/automation_script.py"
+                },
+                "element_context": {
+                  "element_type": "Code Line",
+                  "element_name": "Wait Function"
+                },
+                "application_context": {
+                  "application_name": "PyCharm",
+                  "application_version": "v2024.1"
+                },
+                "interaction_duration": 1.0,
+                "user_intent_inferred": {
+                  "intent": "Introduce delay in execution"
+                },
+                "previous_action_context": {
+                  "previous_action": "Executed action before wait"
+                },
+                "follow_up_action_context": {
+                  "predicted_next_action": "Proceed to next action"
+                },
+                "screenshot": {
+                  "name": "Screenshot_2024-11-16_14-18-00.png",
+                  "location": "/screenshots/session123/",
+                  "action_name": "Wait",
+                  "workflow_name": "Automation Script"
+                },
+                /* Additional Properties Specific to Wait */
+                "wait_duration": 5.0,  // Duration in seconds
+                "wait_reason": "Allow page to load",
+                "action_result": "Wait executed"
+              }
+            },
+            {
+              "action_type": "wait_for",
+              "meta_information": {
+                /* Standard Properties */
+                "timestamp": "2024-11-16T14:19:00Z",
+                "sequence_order": 60,
+                "screen_context": {
+                  "visible_ui_elements": ["Automation Script Editor"]
+                },
+                "url_path_context": {
+                  "url": null,
+                  "file_path": "/Scripts/automation_script.py"
+                },
+                "element_context": {
+                  "element_type": "Code Line",
+                  "element_name": "Wait For Function"
+                },
+                "application_context": {
+                  "application_name": "PyCharm",
+                  "application_version": "v2024.1"
+                },
+                "interaction_duration": 2.0,
+                "user_intent_inferred": {
+                  "intent": "Wait for a specific condition"
+                },
+                "previous_action_context": {
+                  "previous_action": "Defined wait condition"
+                },
+                "follow_up_action_context": {
+                  "predicted_next_action": "Proceed when condition met"
+                },
+                "screenshot": {
+                  "name": "Screenshot_2024-11-16_14-19-00.png",
+                  "location": "/screenshots/session123/",
+                  "action_name": "Wait For",
+                  "workflow_name": "Automation Script"
+                },
+                /* Additional Properties Specific to Wait For */
+                "wait_for_element": {
+                  "element_type": "Button",
+                  "element_name": "Submit"
+                },
+                "wait_condition": "Element is clickable",
+                "timeout_duration": 30.0,  // Maximum time to wait in seconds
+                "polling_interval": 0.5,  // How often to check the condition
+                "action_result": "Condition met and proceeded"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "machine_actions",
+      "subcategories": [
+        {
+          "subcategory": "process_management",
+          "actions": [
+            {
+              "action_type": "process_start",
+              "meta_information": {
+                /* Standard Properties */
+                "timestamp": "2024-11-16T14:20:00Z",
+                "sequence_order": 58,
+                "screen_context": {
+                  "visible_ui_elements": ["Command Prompt"]
+                },
+                "url_path_context": {
+                  "url": null,
+                  "file_path": "C:\\Program Files\\Application\\app.exe"
+                },
+                "element_context": {
+                  "element_type": "Executable File",
+                  "element_name": "app.exe"
+                },
+                "application_context": {
+                  "application_name": "Command Prompt",
+                  "application_version": "v10.0"
+                },
+                "interaction_duration": 0.8,
+                "user_intent_inferred": {
+                  "intent": "Start application process"
+                },
+                "previous_action_context": {
+                  "previous_action": "Navigated to application directory"
+                },
+                "follow_up_action_context": {
+                  "predicted_next_action": "Monitor process output"
+                },
+                "screenshot": {
+                  "name": "Screenshot_2024-11-16_14-20-00.png",
+                  "location": "/screenshots/session123/",
+                  "action_name": "Process Start",
+                  "workflow_name": "System Operations"
+                },
+                /* Additional Properties Specific to Process Start */
+                "process_name": "app.exe",
+                "process_id": 1234,
+                "start_method": "Command Line Execution",
+                "action_result": "Process started"
+              }
+            },
+            {
+              "action_type": "process_end",
+              "meta_information": {
+                /* Standard Properties */
+                "timestamp": "2024-11-16T14:25:00Z",
+                "sequence_order": 59,
+                "screen_context": {
+                  "visible_ui_elements": ["Task Manager"]
+                },
+                "url_path_context": {
+                  "url": null,
+                  "file_path": null
+                },
+                "element_context": {
+                  "element_type": "Process List",
+                  "element_name": "app.exe"
+                },
+                "application_context": {
+                  "application_name": "Task Manager",
+                  "application_version": "v10.0"
+                },
+                "interaction_duration": 1.0,
+                "user_intent_inferred": {
+                  "intent": "Terminate unresponsive process"
+                },
+                "previous_action_context": {
+                  "previous_action": "Detected application freeze"
+                },
+                "follow_up_action_context": {
+                  "predicted_next_action": "Restart application"
+                },
+                "screenshot": {
+                  "name": "Screenshot_2024-11-16_14-25-00.png",
+                  "location": "/screenshots/session123/",
+                  "action_name": "Process End",
+                  "workflow_name": "System Operations"
+                },
+                /* Additional Properties Specific to Process End */
+                "process_name": "app.exe",
+                "process_id": 1234,
+                "end_method": "End Task via Task Manager",
+                "action_result": "Process terminated"
+              }
+            }
+          ]
+        },
+        {
+          "subcategory": "resource_access",
+          "actions": [
+            {
+              "action_type": "resource_access",
+              "meta_information": {
+                /* Standard Properties */
+                "timestamp": "2024-11-16T14:30:00Z",
+                "sequence_order": 60,
+                "screen_context": {
+                  "visible_ui_elements": ["File Explorer"]
+                },
+                "url_path_context": {
+                  "url": null,
+                  "file_path": "\\\\NetworkDrive\\SharedFolder"
+                },
+                "element_context": {
+                  "element_type": "Network Drive",
+                  "element_name": "SharedFolder"
+                },
+                "application_context": {
+                  "application_name": "File Explorer",
+                  "application_version": "v10.0"
+                },
+                "interaction_duration": 2.0,
+                "user_intent_inferred": {
+                  "intent": "Access shared network resource"
+                },
+                "previous_action_context": {
+                  "previous_action": "Opened File Explorer"
+                },
+                "follow_up_action_context": {
+                  "predicted_next_action": "Copy files from resource"
+                },
+                "screenshot": {
+                  "name": "Screenshot_2024-11-16_14-30-00.png",
+                  "location": "/screenshots/session123/",
+                  "action_name": "Resource Access",
+                  "workflow_name": "File Management"
+                },
+                /* Additional Properties Specific to Resource Access */
+                "resource_type": "Network Drive",
+                "resource_name": "SharedFolder",
+                "access_method": "Mapped Network Drive",
+                "action_result": "Resource accessed"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "security_and_authentication_actions",
+      "subcategories": [
+        {
+          "subcategory": "authentication_attempts",
+          "actions": [
+            {
+              "action_type": "login_attempt",
+              "meta_information": {
+                /* Standard Properties */
+                "timestamp": "2024-11-16T14:35:00Z",
+                "sequence_order": 61,
+                "screen_context": {
+                  "visible_ui_elements": ["Login Page"]
+                },
+                "url_path_context": {
+                  "url": "https://example.com/login",
+                  "file_path": null
+                },
+                "element_context": {
+                  "element_type": "Login Form",
+                  "element_name": "Username and Password Fields"
+                },
+                "application_context": {
+                  "application_name": "Web Browser",
+                  "application_version": "Chrome v118"
+                },
+                "interaction_duration": 1.5,
+                "user_intent_inferred": {
+                  "intent": "Access user account"
+                },
+                "previous_action_context": {
+                  "previous_action": "Navigated to login page"
+                },
+                "follow_up_action_context": {
+                  "predicted_next_action": "Complete 2FA"
+                },
+                "screenshot": {
+                  "name": "Screenshot_2024-11-16_14-35-00.png",
+                  "location": "/screenshots/session123/",
+                  "action_name": "Login Attempt",
+                  "workflow_name": "User Authentication"
+                },
+                /* Additional Properties Specific to Login Attempt */
+                "username": "johndoe",
+                "authentication_method": "Password",
+                "login_result": "Success",
+                "attempt_count": 1,
+                "action_result": "Login successful"
+              }
+            },
+            {
+              "action_type": "logout",
+              "meta_information": {
+                /* Standard Properties */
+                "timestamp": "2024-11-16T15:00:00Z",
+                "sequence_order": 62,
+                "screen_context": {
+                  "visible_ui_elements": ["User Dashboard"]
+                },
+                "url_path_context": {
+                  "url": "https://example.com/dashboard",
+                  "file_path": null
+                },
+                "element_context": {
+                  "element_type": "Menu Option",
+                  "element_name": "Logout"
+                },
+                "application_context": {
+                  "application_name": "Web Browser",
+                  "application_version": "Chrome v118"
+                },
+                "interaction_duration": 0.5,
+                "user_intent_inferred": {
+                  "intent": "Sign out of account"
+                },
+                "previous_action_context": {
+                  "previous_action": "Completed session activities"
+                },
+                "follow_up_action_context": {
+                  "predicted_next_action": "Close browser"
+                },
+                "screenshot": {
+                  "name": "Screenshot_2024-11-16_15-00-00.png",
+                  "location": "/screenshots/session123/",
+                  "action_name": "Logout",
+                  "workflow_name": "User Authentication"
+                },
+                /* Additional Properties Specific to Logout */
+                "username": "johndoe",
+                "logout_method": "Clicked Logout Button",
+                "action_result": "Logout successful"
+              }
+            }
+          ]
+        },
+        {
+          "subcategory": "multi_factor_authentication",
+          "actions": [
+            {
+              "action_type": "2fa_interaction",
+              "meta_information": {
+                /* Standard Properties */
+                "timestamp": "2024-11-16T14:36:00Z",
+                "sequence_order": 63,
+                "screen_context": {
+                  "visible_ui_elements": ["2FA Verification Page"]
+                },
+                "url_path_context": {
+                  "url": "https://example.com/2fa",
+                  "file_path": null
+                },
+                "element_context": {
+                  "element_type": "Input Field",
+                  "element_name": "Verification Code"
+                },
+                "application_context": {
+                  "application_name": "Web Browser",
+                  "application_version": "Chrome v118"
+                },
+                "interaction_duration": 1.0,
+                "user_intent_inferred": {
+                  "intent": "Complete two-factor authentication"
+                },
+                "previous_action_context": {
+                  "previous_action": "Entered login credentials"
+                },
+                "follow_up_action_context": {
+                  "predicted_next_action": "Access account dashboard"
+                },
+                "screenshot": {
+                  "name": "Screenshot_2024-11-16_14-36-00.png",
+                  "location": "/screenshots/session123/",
+                  "action_name": "2FA Interaction",
+                  "workflow_name": "User Authentication"
+                },
+                /* Additional Properties Specific to 2FA Interaction */
+                "2fa_method": "Authenticator App",
+                "verification_code": "******",  // Masked for security
+                "attempt_count": 1,
+                "action_result": "2FA successful"
+              }
+            }
+          ]
+        },
+        {
+          "subcategory": "permission_requests",
+          "actions": [
+            {
+              "action_type": "permission_request",
+              "meta_information": {
+                /* Standard Properties */
+                "timestamp": "2024-11-16T14:40:00Z",
+                "sequence_order": 64,
+                "screen_context": {
+                  "visible_ui_elements": ["Permission Dialog"]
+                },
+                "url_path_context": {
+                  "url": "https://example.com",
+                  "file_path": null
+                },
+                "element_context": {
+                  "element_type": "Dialog Box",
+                  "element_name": "Permission Request"
+                },
+                "application_context": {
+                  "application_name": "Web Browser",
+                  "application_version": "Chrome v118"
+                },
+                "interaction_duration": 0.5,
+                "user_intent_inferred": {
+                  "intent": "Respond to permission request"
+                },
+                "previous_action_context": {
+                  "previous_action": "Attempted to access webcam"
+                },
+                "follow_up_action_context": {
+                  "predicted_next_action": "Use webcam in application"
+                },
+                "screenshot": {
+                  "name": "Screenshot_2024-11-16_14-40-00.png",
+                  "location": "/screenshots/session123/",
+                  "action_name": "Permission Request",
+                  "workflow_name": "Security Interaction"
+                },
+                /* Additional Properties Specific to Permission Request */
+                "permission_type": "Webcam Access",
+                "user_response": "Granted",
+                "action_result": "Permission granted"
+              }
+            },
+            {
+              "action_type": "run_as_administrator",
+              "meta_information": {
+                /* Standard Properties */
+                "timestamp": "2024-11-16T15:05:00Z",
+                "sequence_order": 65,
+                "screen_context": {
+                  "visible_ui_elements": ["Permission Dialog", "Terms of Service Modal"]
+                },
+                "url_path_context": {
+                  "url": "https://example.com/admin",
+                  "file_path": null
+                },
+                "element_context": {
+                  "element_type": "Dialog Box",
+                  "element_name": "Run as Administrator Request"
+                },
+                "application_context": {
+                  "application_name": "Web Browser",
+                  "application_version": "Chrome v118"
+                },
+                "interaction_duration": 2.0,
+                "user_intent_inferred": {
+                  "intent": "Request administrative privileges"
+                },
+                "previous_action_context": {
+                  "previous_action": "Attempted to perform admin-level task"
+                },
+                "follow_up_action_context": {
+                  "predicted_next_action": "Agree to terms and proceed"
+                },
+                "screenshot": {
+                  "name": "Screenshot_2024-11-16_15-05-00.png",
+                  "location": "/screenshots/session123/",
+                  "action_name": "Run as Administrator",
+                  "workflow_name": "Security Interaction"
+                },
+                /* Additional Properties Specific to Run as Administrator */
+                "requested_permission": "Run as Administrator",
+                "terms_of_service": {
+                  "accepted": true
+                },
+                "action_result": "Administrator privileges granted"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

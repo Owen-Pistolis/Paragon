@@ -1,0 +1,175 @@
+2. Mouse Actions
+left_click
+
+Inputs:
+x: X-coordinate of the click.
+y: Y-coordinate of the click.
+right_click, middle_click
+
+Inputs:
+x: X-coordinate.
+y: Y-coordinate.
+double_left_click
+
+Inputs:
+x: X-coordinate.
+y: Y-coordinate.
+mouse_drag
+
+Inputs:
+start_x, start_y: Start coordinates.
+end_x, end_y: End coordinates.
+duration: Time for the drag (default: 1.0).
+mouse_hover
+
+Inputs:
+x, y: Coordinates to hover over.
+duration: Duration of hover (default: 1.0).
+mouse_scroll
+
+Inputs:
+direction: "up" or "down" (default: "up").
+amount: Scroll amount (default: 1).
+mouse_move
+
+Inputs:
+x, y: Target coordinates.
+duration: Duration for movement (default: 0.5).
+context_menu_open
+
+Inputs:
+x, y: Coordinates to open the context menu.
+3. Keyboard Actions
+keystroke
+
+Inputs:
+key: The key to press.
+key_combination
+
+Inputs:
+keys: List of keys to press simultaneously.
+typing_sequence
+
+Inputs:
+text: String to type.
+typingSpeed: Delay between keystrokes (default: 0.1).
+special_key_press
+
+Inputs:
+key: The special key to press (e.g., "Ctrl").
+shortcut_use
+
+Inputs:
+shortcut: A predefined keyboard shortcut.
+4. File and Folder Actions
+file_open, file_save
+
+Inputs:
+file_path: Path to the file.
+For file_save: content: Data to save.
+file_delete
+
+Inputs:
+file_path: Path to the file.
+file_rename
+
+Inputs:
+file_path: Original file path.
+new_name: New name for the file.
+file_move, file_copy
+
+Inputs:
+file_path: Source file path.
+destination_path: Destination path.
+file_upload
+
+Inputs:
+file_path: File to upload.
+file_download
+
+Inputs:
+file_url: URL of the file.
+destination_path: Local path to save the file.
+5. Browser Actions
+open_selenium
+
+Inputs:
+browser: Browser type ("chrome", "firefox", etc., default: "chrome").
+headless: Boolean for headless mode (default: False).
+close_selenium
+
+Inputs: None.
+element_interact
+
+Inputs:
+selector: CSS selector or other identifier.
+by: Selector strategy (default: By.CSS_SELECTOR).
+url_navigation
+
+Inputs:
+url: Target URL.
+search_query
+
+Inputs:
+query: Search query text.
+wait_time: Time to wait for results (default: 2).
+6. Communication Actions
+email_read
+
+Inputs:
+platform: Email platform (default: "outlook").
+criteria: Search or filter criteria.
+email_write
+
+Inputs:
+platform: Email platform (default: "outlook").
+to: Recipient email.
+subject, body: Email content.
+cc, bcc: Optional CC/BCC recipients.
+email_send
+
+Inputs:
+to_address, subject, body: Email details.
+smtp_server, smtp_port: SMTP settings.
+smtp_username, smtp_password: Authentication credentials.
+scan_inbox, email_search
+
+Inputs:
+criteria: Search/filter criteria.
+platform: Email platform (default: "outlook").
+7. Security and Authentication Actions
+login_attempt
+
+Inputs:
+name: Credential name.
+logout
+
+Inputs: None.
+permission_request
+
+Inputs:
+permission: Specific permission requested.
+run_as_administrator
+
+Inputs:
+command: Command to execute with elevated privileges.
+8. Specialized Actions
+dropdown_select
+
+Inputs:
+selector: Dropdown selector.
+value: Option to select.
+by: Selector strategy (default: By.CSS_SELECTOR).
+is_local: Boolean for local dropdowns (default: False).
+window_title: Title of the application (for local dropdowns).
+wait
+
+Inputs:
+duration: Wait duration (default: 1).
+wait_for
+
+Inputs:
+condition: Condition to wait for.
+selector: Target element's selector.
+timeout: Timeout duration (default: 30).
+by: Selector strategy (default: By.CSS_SELECTOR).

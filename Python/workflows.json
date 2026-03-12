@@ -1,0 +1,1097 @@
+{
+    "Web Login and Data Entry": {
+        "name": "Web Login and Data Entry",
+        "actions": [
+            {
+                "type": "open_selenium",
+                "browser": "chrome",
+                "headless": false,
+                "meta_information": {
+                    "sequence_order": 1,
+                    "description": "Open browser"
+                }
+            },
+            {
+                "type": "url_navigation",
+                "url": "https://demoqa.com/login",
+                "meta_information": {
+                    "sequence_order": 2,
+                    "description": "Navigate to login page"
+                }
+            },
+            {
+                "type": "element_interact",
+                "selector": "//input[@id='userName']",
+                "by": "xpath",
+                "action": "input",
+                "credential_name": "testycombinator",
+                "credential_field": "username",
+                "meta_information": {
+                    "sequence_order": 3,
+                    "description": "Enter username from credentials"
+                },
+                "value": "test"
+            },
+            {
+                "type": "element_interact",
+                "selector": "//input[@id='password']",
+                "by": "xpath",
+                "action": "input",
+                "credential_name": "testycombinator",
+                "credential_field": "password",
+                "meta_information": {
+                    "sequence_order": 4,
+                    "description": "Enter password from credentials"
+                },
+                "value": "test"
+            },
+            {
+                "type": "element_interact",
+                "selector": "//button[@id='login']",
+                "by": "xpath",
+                "action": "click",
+                "meta_information": {
+                    "sequence_order": 5,
+                    "description": "Click login button"
+                }
+            },
+            {
+                "type": "close_selenium",
+                "meta_information": {
+                    "sequence_order": 6,
+                    "description": "Close browser"
+                }
+            }
+        ]
+    },
+    "Mixed Desktop-Web Automation": {
+        "name": "Mixed Desktop-Web Automation",
+        "actions": [
+            {
+                "type": "open_application",
+                "application_path": "notepad.exe",
+                "meta_information": {
+                    "sequence_order": 1,
+                    "description": "Open Notepad"
+                }
+            },
+            {
+                "type": "typing_sequence",
+                "text": "Research Notes:\n",
+                "typing_speed": 0.1,
+                "meta_information": {
+                    "sequence_order": 2,
+                    "description": "Type header"
+                }
+            },
+            {
+                "type": "open_selenium",
+                "browser": "chrome",
+                "headless": false,
+                "meta_information": {
+                    "sequence_order": 3,
+                    "description": "Open browser"
+                }
+            },
+            {
+                "type": "url_navigation",
+                "url": "https://www.wikipedia.org",
+                "meta_information": {
+                    "sequence_order": 4,
+                    "description": "Navigate to Wikipedia"
+                }
+            },
+            {
+                "type": "element_interact",
+                "selector": "//input[@id='searchInput']",
+                "by": "xpath",
+                "action": "input",
+                "value": "Automation",
+                "meta_information": {
+                    "sequence_order": 5,
+                    "description": "Enter search term"
+                }
+            },
+            {
+                "type": "key_combination",
+                "keys": [
+                    "alt",
+                    "tab"
+                ],
+                "meta_information": {
+                    "sequence_order": 6,
+                    "description": "Switch to Notepad"
+                }
+            },
+            {
+                "type": "typing_sequence",
+                "text": "Research completed.",
+                "typing_speed": 0.1,
+                "meta_information": {
+                    "sequence_order": 7,
+                    "description": "Type conclusion"
+                }
+            },
+            {
+                "type": "close_selenium",
+                "meta_information": {
+                    "sequence_order": 8,
+                    "description": "Close browser"
+                }
+            }
+        ]
+    },
+    "KompassAI Login Test": {
+        "name": "KompassAI Login Test",
+        "actions": [
+            {
+                "type": "open_selenium",
+                "browser": "chrome",
+                "headless": false,
+                "meta_information": {
+                    "sequence_order": 1,
+                    "description": "Open browser"
+                }
+            },
+            {
+                "type": "url_navigation",
+                "url": "https://demoqa.com/login",
+                "meta_information": {
+                    "sequence_order": 2,
+                    "description": "Navigate to demo login page"
+                }
+            },
+            {
+                "type": "wait",
+                "duration": 2,
+                "meta_information": {
+                    "sequence_order": 3,
+                    "description": "Wait for page to load"
+                }
+            },
+            {
+                "type": "element_interact",
+                "selector": "//input[@id='userName']",
+                "by": "xpath",
+                "action": "input",
+                "credential_name": "KompassAI",
+                "credential_field": "username",
+                "meta_information": {
+                    "sequence_order": 4,
+                    "description": "Enter KompassAI username"
+                },
+                "value": "hunter@kompassai.com"
+            },
+            {
+                "type": "wait",
+                "duration": 1,
+                "meta_information": {
+                    "sequence_order": 5,
+                    "description": "Short pause"
+                }
+            },
+            {
+                "type": "element_interact",
+                "selector": "//input[@id='password']",
+                "by": "xpath",
+                "action": "input",
+                "credential_name": "KompassAI",
+                "credential_field": "password",
+                "meta_information": {
+                    "sequence_order": 6,
+                    "description": "Enter KompassAI password"
+                },
+                "value": "Propane4?!"
+            },
+            {
+                "type": "wait",
+                "duration": 1,
+                "meta_information": {
+                    "sequence_order": 7,
+                    "description": "Wait before clicking"
+                }
+            },
+            {
+                "type": "element_interact",
+                "selector": "//button[@id='login']",
+                "by": "xpath",
+                "action": "click",
+                "meta_information": {
+                    "sequence_order": 8,
+                    "description": "Click login button"
+                }
+            },
+            {
+                "type": "wait",
+                "duration": 3,
+                "meta_information": {
+                    "sequence_order": 9,
+                    "description": "Wait to see result"
+                }
+            },
+            {
+                "type": "close_selenium",
+                "meta_information": {
+                    "sequence_order": 10,
+                    "description": "Close browser"
+                }
+            }
+        ]
+    },
+    "YouTube Navigation": {
+        "name": "YouTube Navigation",
+        "actions": [
+            {
+                "type": "open_selenium",
+                "browser": "chrome",
+                "headless": false,
+                "meta_information": {
+                    "sequence_order": 1,
+                    "description": "Open Chrome browser"
+                }
+            },
+            {
+                "type": "url_navigation",
+                "url": "https://www.youtube.com",
+                "meta_information": {
+                    "sequence_order": 2,
+                    "description": "Navigate to YouTube"
+                }
+            },
+            {
+                "type": "wait",
+                "duration": 5,
+                "meta_information": {
+                    "sequence_order": 3,
+                    "description": "Wait for page to load"
+                }
+            },
+            {
+                "type": "element_interact",
+                "selector": "//input[@name='search_query']",
+                "by": "xpath",
+                "action": "input",
+                "value": "LSDream Hello Human",
+                "meta_information": {
+                    "sequence_order": 4,
+                    "description": "Enter search query"
+                }
+            },
+            {
+                "type": "wait",
+                "duration": 2,
+                "meta_information": {
+                    "sequence_order": 5,
+                    "description": "Wait for search to process"
+                }
+            },
+            {
+                "type": "element_interact",
+                "selector": "//a[@id='video-title' and contains(@title, 'Hello Human')]",
+                "by": "xpath",
+                "action": "click",
+                "meta_information": {
+                    "sequence_order": 6,
+                    "description": "Click on video"
+                }
+            },
+            {
+                "type": "wait",
+                "duration": 60,
+                "meta_information": {
+                    "sequence_order": 7,
+                    "description": "Wait for 60 seconds"
+                }
+            },
+            {
+                "type": "close_selenium",
+                "meta_information": {
+                    "sequence_order": 8,
+                    "description": "Close browser"
+                }
+            }
+        ]
+    },
+    "Test": {
+        "name": "Test",
+        "actions": [
+            {
+                "type": "open_selenium",
+                "meta_information": {
+                    "sequence_order": 1,
+                    "description": "Open Google Chrome"
+                },
+                "browser": "chrome",
+                "headless": false,
+                "selector": null,
+                "by": "name",
+                "url": null,
+                "query": null,
+                "wait_time": 2.0
+            },
+            {
+                "type": "url_navigation",
+                "meta_information": {
+                    "sequence_order": 2,
+                    "description": "Navigate to Youtube"
+                },
+                "browser": "chrome",
+                "headless": false,
+                "selector": null,
+                "by": "name",
+                "url": "https://www.youtube.com",
+                "query": null,
+                "wait_time": 2.0
+            },
+            {
+                "type": "wait",
+                "meta_information": {
+                    "sequence_order": 3,
+                    "description": "Pause to let the page load"
+                },
+                "selector": null,
+                "value": null,
+                "by": "css selector",
+                "is_local": false,
+                "window_title": null,
+                "duration": 3.0,
+                "condition": null,
+                "timeout": 30.0
+            },
+            {
+                "type": "element_interact",
+                "meta_information": {
+                    "sequence_order": 4,
+                    "description": "Search for Led Zepplin"
+                },
+                "browser": "chrome",
+                "headless": false,
+                "selector": "//input[@name='search']",
+                "by": "xpath",
+                "url": null,
+                "query": null,
+                "wait_time": 2.0
+            },
+            {
+                "type": "wait",
+                "meta_information": {
+                    "sequence_order": 5,
+                    "description": "Pause to let the results load"
+                },
+                "selector": null,
+                "value": null,
+                "by": "css selector",
+                "is_local": false,
+                "window_title": null,
+                "duration": 2.0,
+                "condition": null,
+                "timeout": 30.0
+            },
+            {
+                "type": "element_interact",
+                "meta_information": {
+                    "sequence_order": 6,
+                    "description": "Click on the first video"
+                },
+                "browser": "chrome",
+                "headless": false,
+                "selector": "(//a[@id='video-title'])[1]",
+                "by": "xpath",
+                "url": null,
+                "query": null,
+                "wait_time": 2.0
+            },
+            {
+                "type": "wait",
+                "meta_information": {
+                    "sequence_order": 7,
+                    "description": "Pause to let the video load"
+                },
+                "selector": null,
+                "value": null,
+                "by": "css selector",
+                "is_local": false,
+                "window_title": null,
+                "duration": 3.0,
+                "condition": null,
+                "timeout": 30.0
+            },
+            {
+                "type": "close_selenium",
+                "meta_information": {
+                    "sequence_order": 8,
+                    "description": "Close browser"
+                },
+                "browser": "chrome",
+                "headless": false,
+                "selector": null,
+                "by": "name",
+                "url": null,
+                "query": null,
+                "wait_time": 2.0
+            }
+        ]
+    },
+    "Ford GT Search in Kansas City": {
+        "name": "Ford GT Search in Kansas City",
+        "actions": [
+            {
+                "type": "open_selenium",
+                "meta_information": {
+                    "sequence_order": 1,
+                    "description": "Open the web browser"
+                },
+                "browser": "chrome",
+                "headless": false,
+                "selector": null,
+                "by": "name",
+                "url": null,
+                "query": null,
+                "wait_time": 2.0
+            },
+            {
+                "type": "url_navigation",
+                "meta_information": {
+                    "sequence_order": 2,
+                    "description": "Navigate to the Autotrader search page for Ford GTs in Kansas City, MO"
+                },
+                "browser": "chrome",
+                "headless": false,
+                "selector": null,
+                "by": "name",
+                "url": "https://www.autotrader.com/cars-for-sale/ford/gt/kansas-city-mo-64106",
+                "query": null,
+                "wait_time": 2.0
+            },
+            {
+                "type": "wait",
+                "meta_information": {
+                    "sequence_order": 3,
+                    "description": "Pause to ensure page loads fully"
+                },
+                "selector": null,
+                "value": null,
+                "by": "css selector",
+                "is_local": false,
+                "window_title": null,
+                "duration": 3.0,
+                "condition": null,
+                "timeout": 30.0
+            },
+            {
+                "type": "element_interact",
+                "meta_information": {
+                    "sequence_order": 4,
+                    "description": "Extract the total number of Ford GTs for sale"
+                },
+                "browser": "chrome",
+                "headless": false,
+                "selector": "//div[@class='title-wrap']//span[@data-cmp='subheading']",
+                "by": "xpath",
+                "url": null,
+                "query": null,
+                "wait_time": 2.0
+            },
+            {
+                "type": "close_selenium",
+                "meta_information": {
+                    "sequence_order": 5,
+                    "description": "Close the web browser"
+                },
+                "browser": "chrome",
+                "headless": false,
+                "selector": null,
+                "by": "name",
+                "url": null,
+                "query": null,
+                "wait_time": 2.0
+            }
+        ]
+    },
+    "Automated Input of Trade Data": {
+        "name": "Automated Input of Trade Data",
+        "actions": [
+            {
+                "type": "open_selenium",
+                "meta_information": {
+                    "sequence_order": 1,
+                    "description": "Open Google Chrome browser"
+                },
+                "browser": "chrome",
+                "headless": false,
+                "selector": null,
+                "by": "name",
+                "url": null,
+                "query": null,
+                "wait_time": 2.0
+            },
+            {
+                "type": "url_navigation",
+                "meta_information": {
+                    "sequence_order": 2,
+                    "description": "Navigate to Wealthscape"
+                },
+                "browser": "chrome",
+                "headless": false,
+                "selector": null,
+                "by": "name",
+                "url": "https://www.wealthscape.com/",
+                "query": null,
+                "wait_time": 2.0
+            },
+            {
+                "type": "element_interact",
+                "meta_information": {
+                    "sequence_order": 3,
+                    "description": "Enter username"
+                },
+                "browser": "chrome",
+                "headless": false,
+                "selector": "//input[@id='username']",
+                "by": "xpath",
+                "url": null,
+                "query": null,
+                "wait_time": 2.0
+            },
+            {
+                "type": "wait",
+                "meta_information": {
+                    "sequence_order": 4,
+                    "description": "Short pause"
+                },
+                "selector": null,
+                "value": null,
+                "by": "css selector",
+                "is_local": false,
+                "window_title": null,
+                "duration": 1.0,
+                "condition": null,
+                "timeout": 30.0
+            },
+            {
+                "type": "element_interact",
+                "meta_information": {
+                    "sequence_order": 5,
+                    "description": "Enter password"
+                },
+                "browser": "chrome",
+                "headless": false,
+                "selector": "//input[@id='password']",
+                "by": "xpath",
+                "url": null,
+                "query": null,
+                "wait_time": 2.0
+            },
+            {
+                "type": "wait",
+                "meta_information": {
+                    "sequence_order": 6,
+                    "description": "Short pause"
+                },
+                "selector": null,
+                "value": null,
+                "by": "css selector",
+                "is_local": false,
+                "window_title": null,
+                "duration": 1.0,
+                "condition": null,
+                "timeout": 30.0
+            },
+            {
+                "type": "url_navigation",
+                "meta_information": {
+                    "sequence_order": 7,
+                    "description": "Navigate to Redtail"
+                },
+                "browser": "chrome",
+                "headless": false,
+                "selector": null,
+                "by": "name",
+                "url": "https://redtailtechnology.com/",
+                "query": null,
+                "wait_time": 2.0
+            },
+            {
+                "type": "element_interact",
+                "meta_information": {
+                    "sequence_order": 8,
+                    "description": "Enter username"
+                },
+                "browser": "chrome",
+                "headless": false,
+                "selector": "//input[@id='username']",
+                "by": "xpath",
+                "url": null,
+                "query": null,
+                "wait_time": 2.0
+            },
+            {
+                "type": "wait",
+                "meta_information": {
+                    "sequence_order": 9,
+                    "description": "Short pause"
+                },
+                "selector": null,
+                "value": null,
+                "by": "css selector",
+                "is_local": false,
+                "window_title": null,
+                "duration": 1.0,
+                "condition": null,
+                "timeout": 30.0
+            },
+            {
+                "type": "element_interact",
+                "meta_information": {
+                    "sequence_order": 10,
+                    "description": "Enter password"
+                },
+                "browser": "chrome",
+                "headless": false,
+                "selector": "//input[@id='password']",
+                "by": "xpath",
+                "url": null,
+                "query": null,
+                "wait_time": 2.0
+            },
+            {
+                "type": "wait",
+                "meta_information": {
+                    "sequence_order": 11,
+                    "description": "Short pause"
+                },
+                "selector": null,
+                "value": null,
+                "by": "css selector",
+                "is_local": false,
+                "window_title": null,
+                "duration": 1.0,
+                "condition": null,
+                "timeout": 30.0
+            },
+            {
+                "type": "close_selenium",
+                "meta_information": {
+                    "sequence_order": 12,
+                    "description": "Close the browser"
+                },
+                "browser": "chrome",
+                "headless": false,
+                "selector": null,
+                "by": "name",
+                "url": null,
+                "query": null,
+                "wait_time": 2.0
+            }
+        ]
+    },
+    "Automated Trade Data Input with Context": {
+        "name": "Automated Trade Data Input with Context",
+        "actions": [
+            {
+                "type": "open_selenium",
+                "meta_information": {
+                    "sequence_order": 1,
+                    "description": "Open Google Chrome browser"
+                },
+                "browser": "chrome",
+                "headless": false,
+                "selector": null,
+                "by": "name",
+                "url": null,
+                "query": null,
+                "wait_time": 2.0
+            },
+            {
+                "type": "url_navigation",
+                "meta_information": {
+                    "sequence_order": 2,
+                    "description": "Navigate to Wealthscape"
+                },
+                "browser": "chrome",
+                "headless": false,
+                "selector": null,
+                "by": "name",
+                "url": "https://www.wealthscape.com/",
+                "query": null,
+                "wait_time": 2.0
+            },
+            {
+                "type": "element_interact",
+                "meta_information": {
+                    "sequence_order": 3,
+                    "description": "Enter Wealthscape username"
+                },
+                "browser": "chrome",
+                "headless": false,
+                "selector": "//input[@id='username']",
+                "by": "xpath",
+                "url": null,
+                "query": null,
+                "wait_time": 2.0
+            },
+            {
+                "type": "element_interact",
+                "meta_information": {
+                    "sequence_order": 4,
+                    "description": "Enter Wealthscape password"
+                },
+                "browser": "chrome",
+                "headless": false,
+                "selector": "//input[@id='password']",
+                "by": "xpath",
+                "url": null,
+                "query": null,
+                "wait_time": 2.0
+            },
+            {
+                "type": "wait",
+                "meta_information": {
+                    "sequence_order": 5,
+                    "description": "Pause for page navigation"
+                },
+                "selector": null,
+                "value": null,
+                "by": "css selector",
+                "is_local": false,
+                "window_title": null,
+                "duration": 2.0,
+                "condition": null,
+                "timeout": 30.0
+            },
+            {
+                "type": "element_interact",
+                "meta_information": {
+                    "sequence_order": 6,
+                    "description": "Navigate to trade history page"
+                },
+                "browser": "chrome",
+                "headless": false,
+                "selector": "//a[contains(@href, '/trade-history')]",
+                "by": "xpath",
+                "url": null,
+                "query": null,
+                "wait_time": 2.0
+            },
+            {
+                "type": "wait",
+                "meta_information": {
+                    "sequence_order": 7,
+                    "description": "Pause for page navigation"
+                },
+                "selector": null,
+                "value": null,
+                "by": "css selector",
+                "is_local": false,
+                "window_title": null,
+                "duration": 2.0,
+                "condition": null,
+                "timeout": 30.0
+            },
+            {
+                "type": "element_interact",
+                "meta_information": {
+                    "sequence_order": 8,
+                    "description": "Extract trade table data"
+                },
+                "browser": "chrome",
+                "headless": false,
+                "selector": "//table[@id='trade-table']",
+                "by": "xpath",
+                "url": null,
+                "query": null,
+                "wait_time": 2.0
+            },
+            {
+                "type": "url_navigation",
+                "meta_information": {
+                    "sequence_order": 9,
+                    "description": "Navigate to Redtail"
+                },
+                "browser": "chrome",
+                "headless": false,
+                "selector": null,
+                "by": "name",
+                "url": "https://redtailtechnology.com/",
+                "query": null,
+                "wait_time": 2.0
+            },
+            {
+                "type": "element_interact",
+                "meta_information": {
+                    "sequence_order": 10,
+                    "description": "Enter Redtail username"
+                },
+                "browser": "chrome",
+                "headless": false,
+                "selector": "//input[@id='username']",
+                "by": "xpath",
+                "url": null,
+                "query": null,
+                "wait_time": 2.0
+            },
+            {
+                "type": "element_interact",
+                "meta_information": {
+                    "sequence_order": 11,
+                    "description": "Enter Redtail password"
+                },
+                "browser": "chrome",
+                "headless": false,
+                "selector": "//input[@id='password']",
+                "by": "xpath",
+                "url": null,
+                "query": null,
+                "wait_time": 2.0
+            },
+            {
+                "type": "wait",
+                "meta_information": {
+                    "sequence_order": 12,
+                    "description": "Pause for page navigation"
+                },
+                "selector": null,
+                "value": null,
+                "by": "css selector",
+                "is_local": false,
+                "window_title": null,
+                "duration": 2.0,
+                "condition": null,
+                "timeout": 30.0
+            },
+            {
+                "type": "element_interact",
+                "meta_information": {
+                    "sequence_order": 13,
+                    "description": "Input trade data into CRM"
+                },
+                "browser": "chrome",
+                "headless": false,
+                "selector": "//table[@id='trade-input']",
+                "by": "xpath",
+                "url": null,
+                "query": null,
+                "wait_time": 2.0
+            },
+            {
+                "type": "close_selenium",
+                "meta_information": {
+                    "sequence_order": 14,
+                    "description": "Close browser"
+                },
+                "browser": "chrome",
+                "headless": false,
+                "selector": null,
+                "by": "name",
+                "url": null,
+                "query": null,
+                "wait_time": 2.0
+            }
+        ]
+    },
+    "Fetch S&P500 from AOL Finance": {
+        "name": "Fetch S&P500 from AOL Finance",
+        "actions": [
+            {
+                "type": "open_selenium",
+                "meta_information": {
+                    "sequence_order": 1,
+                    "description": "Open browser"
+                },
+                "browser": "chrome",
+                "headless": false,
+                "selector": null,
+                "by": "name",
+                "url": null,
+                "query": null,
+                "wait_time": 2.0
+            },
+            {
+                "type": "url_navigation",
+                "meta_information": {
+                    "sequence_order": 2,
+                    "description": "Navigate to AOL Finance homepage"
+                },
+                "browser": "chrome",
+                "headless": false,
+                "selector": null,
+                "by": "name",
+                "url": "https://www.aol.com/finance/",
+                "query": null,
+                "wait_time": 2.0
+            },
+            {
+                "type": "element_interact",
+                "meta_information": {
+                    "sequence_order": 3,
+                    "description": "Click on S&P 500 element"
+                },
+                "browser": "chrome",
+                "headless": false,
+                "selector": "//a[text()[contains(.,'S&P')]]",
+                "by": "xpath",
+                "url": null,
+                "query": null,
+                "wait_time": 2.0
+            },
+            {
+                "type": "wait",
+                "meta_information": {
+                    "sequence_order": 4,
+                    "description": "Wait for page to load"
+                },
+                "selector": null,
+                "value": null,
+                "by": "css selector",
+                "is_local": false,
+                "window_title": null,
+                "duration": 2.0,
+                "condition": null,
+                "timeout": 30.0
+            },
+            {
+                "type": "element_interact",
+                "meta_information": {
+                    "sequence_order": 5,
+                    "description": "Get current S&P 500 value"
+                },
+                "browser": "chrome",
+                "headless": false,
+                "selector": "//span[@class='Trsdu(0.3s) Fw(b) Fz(36px) Mb(-4px) D(ib)']",
+                "by": "xpath",
+                "url": null,
+                "query": null,
+                "wait_time": 2.0
+            },
+            {
+                "type": "close_selenium",
+                "meta_information": {
+                    "sequence_order": 6,
+                    "description": "Close browser"
+                },
+                "browser": "chrome",
+                "headless": false,
+                "selector": null,
+                "by": "name",
+                "url": null,
+                "query": null,
+                "wait_time": 2.0
+            }
+        ]
+    },
+    "Test Workflow": {
+        "name": "Recorded_Workflow_1736912290",
+        "actions": [],
+        "metadata": {
+            "created_at": "2025-01-14T21:38:10.620870",
+            "source": "system_recording",
+            "total_actions": 0,
+            "duration": 0
+        }
+    },
+    "Search Cat Videos on YouTube": {
+        "name": "Search Cat Videos on YouTube",
+        "actions": [
+            {
+                "type": "open_selenium",
+                "meta_information": {
+                    "sequence_order": 1,
+                    "description": "Open Google Chrome"
+                },
+                "browser": "chrome",
+                "headless": false,
+                "selector": null,
+                "by": "name",
+                "url": null,
+                "query": null,
+                "wait_time": 2.0
+            },
+            {
+                "type": "url_navigation",
+                "meta_information": {
+                    "sequence_order": 2,
+                    "description": "Navigate to YouTube"
+                },
+                "browser": "chrome",
+                "headless": false,
+                "selector": null,
+                "by": "name",
+                "url": "https://www.youtube.com/",
+                "query": null,
+                "wait_time": 2.0
+            },
+            {
+                "type": "element_interact",
+                "meta_information": {
+                    "sequence_order": 3,
+                    "description": "Search for videos of cats"
+                },
+                "browser": "chrome",
+                "headless": false,
+                "selector": "//input[@id='search']",
+                "by": "xpath",
+                "url": null,
+                "query": null,
+                "wait_time": 2.0
+            },
+            {
+                "type": "wait",
+                "meta_information": {
+                    "sequence_order": 4,
+                    "description": "Wait for search results"
+                },
+                "selector": null,
+                "value": null,
+                "by": "css selector",
+                "is_local": false,
+                "window_title": null,
+                "duration": 2.0,
+                "condition": null,
+                "timeout": 30.0
+            },
+            {
+                "type": "element_interact",
+                "meta_information": {
+                    "sequence_order": 5,
+                    "description": "Click on the first video"
+                },
+                "browser": "chrome",
+                "headless": false,
+                "selector": "(//ytd-video-renderer)[1]",
+                "by": "xpath",
+                "url": null,
+                "query": null,
+                "wait_time": 2.0
+            },
+            {
+                "type": "wait",
+                "meta_information": {
+                    "sequence_order": 6,
+                    "description": "Wait for the video to load"
+                },
+                "selector": null,
+                "value": null,
+                "by": "css selector",
+                "is_local": false,
+                "window_title": null,
+                "duration": 1.0,
+                "condition": null,
+                "timeout": 30.0
+            },
+            {
+                "type": "close_selenium",
+                "meta_information": {
+                    "sequence_order": 7,
+                    "description": "Close the browser"
+                },
+                "browser": "chrome",
+                "headless": false,
+                "selector": null,
+                "by": "name",
+                "url": null,
+                "query": null,
+                "wait_time": 2.0
+            }
+        ]
+    }
+}
