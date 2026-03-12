@@ -1,0 +1,85 @@
+<!--Organization Form -->
+
+
+<!-- User Form -->
+  <div>
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        <mat-panel-title>Add User Form</mat-panel-title>
+      </mat-expansion-panel-header>
+      <form [formGroup]="addUser" (ngSubmit)="submitUser()">
+        <table>
+          <tr>
+            <td>
+              <mat-form-field>
+                <mat-label for="email">Email</mat-label>
+                <input matInput type="email" id="email" name="email" formControlName="email">
+              </mat-form-field>
+            </td>
+            <td>
+              <mat-form-field>
+                <mat-label >Organization</mat-label>
+                <input matInput type="text" name="organization" formControlName="organization">
+              </mat-form-field>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <mat-form-field>
+                <mat-label>First Name</mat-label>
+                <input matInput type="text" name="firstName" formControlName="firstName">
+              </mat-form-field>
+            </td>
+            <td>
+              <mat-form-field>
+                <mat-label>Last Name</mat-label>
+                <input matInput type="text" name="lastName" formControlName="lastName">
+              </mat-form-field>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <mat-label>Manager?</mat-label>
+              <mat-checkbox name="isManager" formControlName="isManager"></mat-checkbox>
+            </td>
+            <td>
+              <mat-label>Admin?</mat-label>
+              <mat-checkbox name="isAdmin" formControlName="isAdmin"></mat-checkbox>
+            </td>
+            <td>
+              <mat-label>Owner?</mat-label>
+              <mat-checkbox name="isOwner" formControlName="isOwner"></mat-checkbox>
+            </td>
+          </tr>
+        </table>
+        
+        <button [disabled]="addUser.invalid" type="submit">Add User</button>
+      </form>
+    </mat-expansion-panel>
+
+    <!-- <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        <mat-panel-title>Add Organization Form</mat-panel-title>
+      </mat-expansion-panel-header>
+      <form [formGroup]="addOrganization" (ngSubmit)="submitOrganization()">
+        <table>
+          <tr>
+            <td>
+              <mat-form-field>
+                <mat-label>Name</mat-label>
+                <input matInput type="text" name="name" formControlName="name">
+              </mat-form-field>
+            </td>
+            <td>
+              <mat-form-field>
+                <mat-label >Organization Manager</mat-label>
+                <input matInput type="text" name="organizationManager" formControlName="organizationManager">
+              </mat-form-field>
+            </td>
+          </tr>
+        </table>
+        
+        <button [disabled]="addOrganization.invalid" type="submit">Add Organization</button>
+      </form>
+    </mat-expansion-panel> -->
+  </div>

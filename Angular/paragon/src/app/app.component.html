@@ -1,0 +1,36 @@
+<div id="navbar-light">
+	<div class="logo">
+		<img id="logo" (mouseenter)="swapLogo($event)" (mouseleave)="swapLogo($event)" src="../assets/blackLogoNoBack.png" (click)="goToHome()">
+	</div>
+  <div id="navMainDiv">
+    <mat-icon id="navHamburger" (click)="toggleNav()" [ngClass]="{'rotated': isNavVisible}">menu</mat-icon>
+    <ul class="nav-links" *ngIf="isNavVisible">
+      <li><a routerLink="/investors">Investors</a></li>
+      <li *ngIf="isAuthenticated$ | async"><a routerLink="/account">Account</a></li>
+    </ul>
+  </div>
+  <div id="emailDiv">
+		<ul class="nav-links" id="email">
+		<li id="getConnected"><a>Stay Updated</a></li>
+		</ul>
+	</div>
+</div>
+<div class="spacer">
+
+</div>
+<router-outlet>
+	
+</router-outlet>
+<footer class="footer">
+	<mat-divider></mat-divider>
+  <div id="iconContainer">
+    <div id="footerIconsLeft">
+      <mat-icon id="firstIconLeft" fontIcon="light_mode" (click)="changeToLight()"></mat-icon>
+      <mat-icon fontIcon="dark_mode" (click)="changeToDark()"></mat-icon>
+    </div>
+    <div id="footerIconsRight">
+      <mat-icon fontIcon="work" (click)="goToCareers()"></mat-icon>
+      <mat-icon id="firstIconRight" fontIcon="contacts" (click)="goToContacts()"></mat-icon>
+    </div>
+  </div>
+</footer>

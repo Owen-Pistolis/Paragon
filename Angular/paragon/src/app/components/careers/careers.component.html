@@ -1,0 +1,39 @@
+<div class="pageContainer">
+    <div class="careerContainer" *ngFor="let job of jobs">
+        <mat-expansion-panel *ngIf="job.numOpenings > 0" class="careerPanel">
+            <mat-expansion-panel-header>
+                <mat-panel-title id="title">{{job.title}}</mat-panel-title>
+            </mat-expansion-panel-header>
+            <div class="vacancies">
+                <h4>{{ job.numOpenings }} Vacancies</h4>
+            </div>
+            <div class="jobDescription">
+                <h3>Description</h3>
+                <p>{{ job.description }}</p>
+            </div>
+            <div class="jobResponsibilities">
+                <h3>Responsibilities</h3>
+                <mat-list class="wrapList">
+                    <mat-list-item *ngFor="let responsibility of job.responsibilities">{{ responsibility }}</mat-list-item>
+                </mat-list>
+            </div>
+            <div class="jobPreferredSkills">
+                <h3>Preferred Skills & Experience</h3>
+                <mat-list>
+                    <mat-list-item *ngFor="let skill of job.preferredSkills">{{ skill }}</mat-list-item>
+                </mat-list>
+            </div>
+            <div class="jobOtherAttributes">
+                <h3>Other Attributes</h3>
+                <mat-list>
+                    <mat-list-item *ngFor="let attribute of job.otherAttributes">{{ attribute }}</mat-list-item>
+                </mat-list>
+            </div>
+            <div class="jobCompensation">
+                <h3>Compensation</h3>
+                <p>{{ job.compensation }}</p>
+            </div>
+            <button mat-stroked-button (click)="apply(job)" class="submit">Apply</button>
+        </mat-expansion-panel>
+    </div>
+</div>

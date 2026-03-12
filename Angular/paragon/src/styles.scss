@@ -1,0 +1,400 @@
+
+// Custom Theming for Angular Material
+// For more information: https://material.angular.io/guide/theming
+@use '@angular/material' as mat;
+// Plus imports for other components in your app.
+
+// Include the common styles for Angular Material. We include this here so that you only
+// have to load a single css file for Angular Material in your app.
+// Be sure that you only ever include this mixin once!
+@include mat.core();
+
+// Define the theme object.
+$paragon-theme: mat.define-theme((
+  color: (
+    theme-type: light,
+    primary: mat.$azure-palette,
+    tertiary: mat.$blue-palette,
+  ),
+  density: (
+    scale: 0,
+  )
+));
+
+// Include theme styles for core and each component used in your app.
+// Alternatively, you can import and @include the theme mixins for each component
+// that you are using.
+:root {
+  @include mat.all-component-themes($paragon-theme);
+}
+
+// Comment out the line below if you want to use the pre-defined typography utility classes.
+// For more information: https://material.angular.io/guide/typography#using-typography-styles-in-your-application.
+// @include mat.typography-hierarchy($paragon-theme);
+
+// Comment out the line below if you want to use the deprecated `color` inputs.
+// @include mat.color-variants-backwards-compatibility($paragon-theme);
+
+html, body { height: 100%; }
+body { margin: 0; font-family: 'Roboto', sans-serif; }
+
+.textDiv{
+    width:400px;
+    height: 1200px;
+    display: column;
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Center vertically */
+    margin: auto;
+    padding-top: 200px;
+}
+
+@import '~typeface-roboto/index.css';
+
+.mat-grid-tile-content{
+  display: block !important
+}
+
+/* Navbar Styling */
+#navbar-light {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Keep space between logo and nav links */
+  padding: 1rem 2rem;
+  background-color: white;
+  color: black;
+  position: fixed; /* Keep navbar fixed at the top */
+  top: 0; /* Position it at the top */
+  width: 100%; /* Full width */
+  z-index: 1000; /* Ensure it stays above other elements */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional shadow for better separation */
+}
+#navbar-dark {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Keep space between logo and nav links */
+  padding: 1rem 2rem;
+  background-color: black;
+  color: white;
+  position: fixed; /* Keep navbar fixed at the top */
+  top: 0; /* Position it at the top */
+  width: 100%; /* Full width */
+  z-index: 1000; /* Ensure it stays above other elements */
+  box-shadow: 0 2px 5px rgb(255, 255, 255); /* Optional shadow for better separation */
+}
+
+/* Centering Links */
+#navbar-light .nav-links, #navbar-dark .nav-links {
+  display: flex;
+  justify-content: left;
+  flex: 1;
+  margin: 0;
+  align-items: center;
+}
+
+#navHamburger{
+  margin-top: 0px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-size: 36px;
+}
+#navMainDiv{
+  width: 90%;
+  display: flex;
+  padding-left: 30px;
+}
+#getConnected{
+  margin: 0 4rem;
+}
+#emailDiv{
+  width: 12%;
+}
+
+/* Logo */
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fd7014;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+#navbar-light .nav-links, #navbar-dark .nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+#navbar-light .nav-links li, #navbar-dark .nav-links li {
+  margin: 0 1rem;
+}
+
+#navbar-light .nav-links a {
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+  padding: 8px;
+  border: 1px solid white;
+  border-radius: 15px;
+}
+#navbar-dark .nav-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+  padding: 8px;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
+#navbar-light .nav-links a:hover {
+  color: #fd7014;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+#navbar-dark .nav-links a:hover{
+  color: #fd7014;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 15px;
+}
+
+.logo img {
+  width: 75px;
+  height: 75px;
+}
+
+#login, #logout, #email{
+  margin: 0 0rem;
+}
+#login:hover, #logout:hover, #email:hover {
+  cursor: pointer;
+}
+/* Footer Styling */
+.footer {
+  color: black;
+  padding: 20px;
+  text-align: center;
+  margin-top: auto;
+  height: 10vh;
+}
+#iconContainer{
+  display: flex;
+}
+#footerIconsLeft {
+  display: flex;
+  justify-content: left;
+  width: 50%;
+
+}
+#footerIconsRight{
+  display: flex;
+  justify-content: right;
+  width: 50%;
+}
+.spacer{
+  width: 100%;
+  height: 8%;
+  background-color: black;
+}
+.mat-divider{
+  border-width: 2px !important;
+  margin-left: 30px !important;
+  margin-right: 30px !important;
+}
+.footer mat-icon{
+  margin-top: 20px;
+  height: 36px !important;
+  width: 36px !important;
+  font-size: 36px !important;
+  padding-right: 10px !important;
+}
+#firstIconLeft{
+  margin-left: 30px;
+}
+#firstIconRight{
+  margin-right: 15px;
+}
+
+#body-light{
+  background-color: white;
+  color: black;
+}
+#body-dark{
+  background-color: black;
+  color: white
+}
+#body-light .gridItemText p span{
+  color: lightgray;
+}
+#body-dark .gridItemText p span{
+  color: white;
+}
+#firstContainer{
+  font-size: 108px;
+}
+@media (max-width: 768px){
+  #firstContainer{
+    font-size: 72px;
+    text-align: center;
+  }
+}
+@media (max-width: 440px) {
+  #firstContainer{
+    font-size: 48px;
+    text-align: center;
+  }
+}
+#body-light #firstContainer{
+  background-color: white;
+}
+#body-dark #firstContainer{
+  background-color: black;
+}
+#body-light .gridItemContent{
+  background-color: #fafafa;
+}
+#body-dark .gridItemContent{
+  background-color: #2f333b;
+}
+#body-light .gridItemContainer:hover .gridItemContent {
+  background-color: #F6F6F6; /* Replace with your desired background color */
+  transition: background-color 0.3s ease; /* Optional: Smooth transition */
+}
+#body-dark .gridItemContainer:hover .gridItemContent {
+  background-color: #1b1d21; /* Replace with your desired background color */
+  transition: background-color 0.3s ease; /* Optional: Smooth transition */
+}
+#body-light mat-icon{
+  color: black
+}
+#body-dark mat-icon{
+  color: white;
+}
+#body-light mat-icon:hover, #body-dark mat-icon:hover{
+  color: #fd7014;
+  cursor: pointer;
+}
+#body-light .mat-divider{
+  border-top-color: black;
+}
+#body-dark .mat-divider{
+  border-top-color: white;
+}
+.fitImage {
+  max-width: 100%;
+  max-height: 100%;
+  width: 500px;   /* Ensures the image stretches to fill the width */
+  height: 500px;  /* Ensures the image stretches to fill the height */
+  object-fit: contain;  /* Ensures the entire image is visible without distortion */
+}
+#body-dark .mdc-list-item__primary-text{
+  color: white;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  text-wrap: wrap;
+  height: auto;
+}
+#body-light .mdc-list-item__primary-text{
+  color: black;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+}
+.tabbedText{
+  margin-left: 30px;
+}
+#body-light .notFoundContainer h1 {
+  color: black;
+  font-size: 12.5rem;
+  letter-spacing: 0.1em;
+  margin: 0.025em 0;
+  text-shadow: 0.05em 0.05em 0 rgba(0, 0, 0, 0.25);
+  white-space: nowrap;
+}
+#body-dark .notFoundContainer h1 {
+  color: white;
+  font-size: 12.5rem;
+  letter-spacing: 0.1em;
+  margin: 0.025em 0;
+  text-shadow: 0.05em 0.05em 0 rgba(225, 225, 225, 0.25);
+  white-space: nowrap;
+}
+.pageContainer{
+  height: auto;
+  padding-top: 1%;
+}
+.headerSection{
+  display: flex;
+  align-content: center;
+  justify-content: left;
+  width: 70%;
+  height: auto;
+  padding-left: 15%;
+}
+.headerSection h1{
+  font-size: 144px;
+}
+.pageSection{
+  display: block;
+  justify-content: center;
+  padding-left: 25%;
+  padding-right: 25%;
+  height: auto;
+}
+@media (max-width: 768px){
+  .headerSection h1{
+    font-size: 72px;
+  }
+  .pageSection{
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+@media (max-width: 440px) {
+  .headerSection h1{
+    font-size: 48px;
+  }
+}
+.test{
+  text-align: center;
+  justify-content: center;
+}
+#body-dark mat-expansion-panel{
+  background-color: #1b1d21;
+  color: white;
+}
+#body-light mat-expansion-panel{
+  background-color: #F6F6F6;
+  color: black;
+}
+#body-dark .mat-expansion-panel-header-title{
+  color: white;
+}
+#body-light .mat-expansion-panel-header-title{
+  color: black;
+}
+
+#body-light .mat-mdc-outlined-button{
+    color: black;
+    border-color: black;
+}
+#body-dark .mat-mdc-outlined-button{
+    color: white;
+    border-color: white;
+}
+.mat-expansion-panel-body{
+  display: flex !important;
+  flex-direction: column;
+}
+.mdc-list-item.mdc-list-item--with-one-line {
+  height: auto !important;
+}

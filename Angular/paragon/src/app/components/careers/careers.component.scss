@@ -1,0 +1,65 @@
+.pageContainer{
+    display: flex;
+    flex-direction: column;
+}
+.careerContainer{
+    display: flex;
+    width: 40%;
+    margin-top: 40px;
+    margin-left: 30%;
+    justify-content: center;
+}
+.careerContainer h3, .careerContainer h4{
+    text-align: center;
+}
+.careerContainer button{
+    justify-content: center;
+    text-align: center;
+}
+.jobDescription, .vacancies, .jobResponsibilities, .jobPreferredSkills .jobOtherAttributes, .jobCompensation{
+    text-align: center;
+    width: 100%;
+}
+#title{
+    padding-left: 3%;
+}
+
+@media (max-width: 768px){
+    .careerContainer{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+  @media (max-width: 440px) {
+    .careerContainer{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+.careerPanel button{
+    text-align: center;
+    justify-content: center;
+}
+.careerContainer mat-expansion-panel {
+    display: flex;
+    flex-direction: column; /* Ensure the button is aligned vertically at the bottom */
+    justify-content: flex-start; /* Align content to the top */
+    width: 100%;
+}
+
+.careerContainer button {
+    align-self: center; /* This will center the button horizontally */
+}
+
+.careerContainer mat-panel-title {
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.wrapList{
+    text-wrap: wrap;
+}

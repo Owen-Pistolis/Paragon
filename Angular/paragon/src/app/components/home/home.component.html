@@ -1,0 +1,43 @@
+<div class="pageContainer">
+    <mat-grid-list [cols]="cols" rowHeight="45vh" gutterSize="25" class="grid">
+        <mat-grid-tile>
+            <div class="gridItemContainer defaultCursorContainer" >
+                <div class="gridItemContent" id="firstContainer">
+                    <h2>A Model of Excellence.</h2>
+                </div>
+                <div class="gridItemText">
+                </div>
+            </div>
+        </mat-grid-tile>
+        <mat-grid-tile>
+            <div class="gridItemContainer" (click)="goToParagon()">
+                <div class="gridItemContent">
+
+                </div>
+                <div class="gridItemText">
+                    <p><strong>Paragon:</strong><span class="tabbedText">Our Natural-Language-to-Automation Contextual Platform</span></p>
+                </div>
+            </div>    
+        </mat-grid-tile>
+        <mat-grid-tile>
+            <div class="gridItemContainer" (click)="goToInvestors()">
+                <div class="gridItemContent">
+
+                </div>
+                <div class="gridItemText">
+                    <p><strong>Investors:</strong><span class="tabbedText">The Mission.</span></p>
+                </div>
+            </div>    
+        </mat-grid-tile>
+        <mat-grid-tile>
+            <div class="gridItemContainer" (click)="goToPrometheus()">
+                <div class="gridItemContent">
+
+                </div>
+                <div class="gridItemText">
+                    <p><strong>Enter Prometheus:</strong><span class="tabbedText">Our Large Action Model and Research.</span></p>
+                </div>
+            </div>  
+        </mat-grid-tile>
+    </mat-grid-list>
+</div>

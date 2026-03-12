@@ -1,0 +1,71 @@
+<div class="pageContainer">
+    <div class="jobContainer">
+        <h2 id="title">Application For {{ job.title }}</h2>
+        <div class="vacancies">
+            <h4>{{ job.numOpenings }} Vacancies</h4>
+        </div>
+        <div class="jobDescription">
+            <h3>Description</h3>
+            <p>{{ job.description }}</p>
+        </div>
+        <div class="jobDuties">
+            <h3>Responsibilities</h3>
+            <mat-list>
+                <mat-list-item *ngFor="let responsibility of job.responsibilities" class="wrapList">{{ responsibility }}</mat-list-item>
+            </mat-list>
+        </div>
+        <div class="jobPreferredSkills">
+            <h3>Preferred Skills & Experience</h3>
+            <mat-list>
+                <mat-list-item *ngFor="let skill of job.preferredSkills">{{ skill }}</mat-list-item>
+            </mat-list>
+        </div>
+        <div class="jobOtherAttributes">
+            <h3>Other Attributes</h3>
+            <mat-list>
+                <mat-list-item *ngFor="let attribute of job.otherAttributes">{{ attribute }}</mat-list-item>
+            </mat-list>
+        </div>
+        <div class="jobCompensation">
+            <h3>Compensation</h3>
+            <p>{{ job.compensation }}</p>
+        </div>
+    </div>    
+    <div id="formContainer">
+        <form [formGroup]="application" (ngSubmit)="submitApplication()">
+            <!-- Email Field -->
+            <mat-form-field id="applicationEmail" >
+                <mat-label>Email</mat-label>
+                <input matInput type="email" formControlName="email">
+            </mat-form-field>
+            <br>
+            <mat-form-field id="applicationLastName" >
+                <mat-label>First Name</mat-label>
+                <input matInput type="text" formControlName="firstName">
+            </mat-form-field>
+            <br>
+            <mat-form-field id="applicationFirstName" >
+                <mat-label>Last Name</mat-label>
+                <input matInput type="text" formControlName="lastName">
+            </mat-form-field>
+            <br>
+            <mat-form-field id="applicationLinkedIn" >
+                <mat-label>LinkedIn</mat-label>
+                <input matInput type="text" formControlName="linkedIn">
+            </mat-form-field>
+            <br>
+            <input formControlName="resume" type="file" #resumeInput (change)="onFileChange($event)" hidden>
+
+            <button mat-stroked-button type="button" (click)="resumeInput.click()">
+                Upload Resume/CV
+            </button>
+    
+        <!-- Submit Button -->
+            <button mat-stroked-button type="submit" [disabled]="application.invalid">
+                Submit
+            </button>
+            <p *ngIf="fileExtension">File Name: {{ fileName }}</p>
+            <p *ngIf="invalidFile">That is not an accepted file for a resume.  Please upload a PDF! </p>
+        </form>    
+    </div>
+</div>

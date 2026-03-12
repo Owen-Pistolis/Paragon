@@ -1,0 +1,336 @@
+[
+  {
+    "title": "Account Executive",
+    "category": "Sales & Marketing",
+    "numOpenings": 2,
+    "description": "Account Executive Description",
+    "responsibilities": [
+        "Account Executive Responsibilities"
+    ],
+    "preferredSkills": [
+        "Account Executive Preferred Skills"
+    ],
+    "otherAttributes": [
+        "Account Executive Attributes"
+    ],
+    "compensation": "Account Executive Compensation"
+  },
+  {
+    "title": "AI Tutor",
+    "category": "Engineering & Technical",
+    "numOpenings": 3,
+    "description": "AI Tutor Description",
+    "responsibilities": [
+        "AI Tutor Responsibilities"
+    ],
+    "preferredSkills": [
+        "AI Tutor Preferred Skills"
+    ],
+    "otherAttributes": [
+        "AI Tutor Attributes"
+    ],
+    "compensation": "AI Tutor Compensation"
+  },
+  {
+    "title": "Content Marketing Executive",
+    "category": "Sales & Marketing",
+    "numOpenings": 2,
+    "description": "Content Marketing Executive Description",
+    "responsibilities": [
+        "Content Marketing Executive Responsibilities"
+    ],
+    "preferredSkills": [
+        "Content Marketing Executive Preferred Skills"
+    ],
+    "otherAttributes": [
+        "Content Marketing Executive Attributes"
+    ],
+    "compensation": "Content Marketing Executive Compensation"
+  },
+  {
+    "title": "Data Analyst",
+    "category": "Data & Analysis",
+    "numOpenings": 3,
+    "description": "Data Analyst Description",
+    "responsibilities": [
+        "Data Analyst Responsibilities"
+    ],
+    "preferredSkills": [
+        "Data Analyst Preferred Skills"
+    ],
+    "otherAttributes": [
+        "Data Analyst Attributes"
+    ],
+    "compensation": "Data Analyst Compensation"
+  },
+  {
+    "title": "Data Engineer",
+    "category": "Engineering & Technical",
+    "numOpenings": 3,
+    "description": "Data Engineer Description",
+    "responsibilities": [
+        "Data Engineer Responsibilities"
+    ],
+    "preferredSkills": [
+        "Data Engineer Preferred Skills"
+    ],
+    "otherAttributes": [
+        "Data Engineer Attributes"
+    ],
+    "compensation": "Data Engineer Compensation"
+  },
+  {
+    "title": "DevOps Engineer",
+    "category": "Engineering & Technical",
+    "numOpenings": 2,
+    "description": "DevOps Engineer Description",
+    "responsibilities": [
+        "DevOps Engineer Responsibilities"
+    ],
+    "preferredSkills": [
+        "DevOps Engineer Preferred Skills"
+    ],
+    "otherAttributes": [
+        "DevOps Engineer Attributes"
+    ],
+    "compensation": "DevOps Engineer Compensation"
+  },
+  {
+    "title": "Marketing Director",
+    "category": "Sales & Marketing",
+    "numOpenings": 1,
+    "description": "Marketing Director Description",
+    "responsibilities": [
+        "Marketing Director Responsibilities"
+    ],
+    "preferredSkills": [
+        "Marketing Director Preferred Skills"
+    ],
+    "otherAttributes": [
+        "Marketing Director Attributes"
+    ],
+    "compensation": "Marketing Director Compensation"
+  },
+  {
+    "title": "Product Data Engineer",
+    "category": "Engineering & Technical",
+    "numOpenings": 2,
+    "description": "Product Data Engineer Description",
+    "responsibilities": [
+        "Product Data Engineer Responsibilities"
+    ],
+    "preferredSkills": [
+        "Product Data Engineer Preferred Skills"
+    ],
+    "otherAttributes": [
+        "Product Data Engineer Attributes"
+    ],
+    "compensation": "Product Data Engineer Compensation"
+  },
+  {
+    "title": "Product Design Engineer",
+    "category": "Engineering & Technical",
+    "numOpenings": 2,
+    "description": "Product Design Engineer Description",
+    "responsibilities": [
+        "Product Design Engineer Responsibilities"
+    ],
+    "preferredSkills": [
+        "Product Design Engineer Preferred Skills"
+    ],
+    "otherAttributes": [
+        "Product Design Engineer Attributes"
+    ],
+    "compensation": "Product Design Engineer Compensation"
+  },
+  {
+    "title": "Sales Development Representative",
+    "category": "Sales & Marketing",
+    "numOpenings": 4,
+    "description": "Sales Development Representative Description",
+    "responsibilities": [
+        "Sales Development Representative Responsibilities"
+    ],
+    "preferredSkills": [
+        "Sales Development Representative Preferred Skills"
+    ],
+    "otherAttributes": [
+        "Sales Development Representative Attributes"
+    ],
+    "compensation": "Sales Development Representative Compensation"
+  },
+  {
+    "title": "Security Analyst",
+    "category": "Engineering & Technical",
+    "numOpenings": 2,
+    "description": "Security Analyst Description",
+    "responsibilities": [
+        "Security Analyst Responsibilities"
+    ],
+    "preferredSkills": [
+        "Security Analyst Preferred Skills"
+    ],
+    "otherAttributes": [
+        "Security Analyst Attributes"
+    ],
+    "compensation": "Security Analyst Compensation"
+  },
+  {
+    "title": "Solution Architect",
+    "category": "Engineering & Technical",
+    "numOpenings": 2,
+    "description": "Solution Architect Description",
+    "responsibilities": [
+        "Solution Architect Responsibilities"
+    ],
+    "preferredSkills": [
+        "Solution Architect Preferred Skills"
+    ],
+    "otherAttributes": [
+        "Solution Architect Attributes"
+    ],
+    "compensation": "Solution Architect Compensation"
+  },
+  {
+    "title": "Software Engineer, Backend",
+    "category": "Engineering & Technical",
+    "numOpenings": 2,
+    "description": "Software Engineer, Backend Description",
+    "responsibilities": [
+        "Software Engineer, Backend Responsibilities"
+    ],
+    "preferredSkills": [
+        "Software Engineer, Backend Preferred Skills"
+    ],
+    "otherAttributes": [
+        "Software Engineer, Backend Attributes"
+    ],
+    "compensation": "Software Engineer, Backend Compensation"
+  },
+  {
+    "title": "Software Engineer, Frontend",
+    "category": "Engineering & Technical",
+    "numOpenings": 2,
+    "description": "Software Engineer, Frontend Description",
+    "responsibilities": [
+        "Software Engineer, Frontend Responsibilities"
+    ],
+    "preferredSkills": [
+        "Software Engineer, Frontend Preferred Skills"
+    ],
+    "otherAttributes": [
+        "Software Engineer, Frontend Attributes"
+    ],
+    "compensation": "Software Engineer, Frontend Compensation"
+  },
+  {
+    "title": "Software Engineer, Full Stack",
+    "category": "Engineering & Technical",
+    "numOpenings": 3,
+    "description": "Software Engineer, Full Stack Description",
+    "responsibilities": [
+        "Create and deliver functional software using core technologies like Python, .NET, C#, Angular, TypeScript, etc. in an agile development environment. Apply Domain-Driven Design, adhere to Clean Code practices, and utilize object-oriented programming methodologies.",
+        "Engage in whole team planning, retrospectives, and communication. Interact with Architects and Product Owners to translate requirements into actionable business logic.",
+        "Participate in proposing and adopting Software Engineering standards related to architectural considerations and non-functional requirements such as security, reliability, and stability.",
+        " Actively contribute to strengthening the team and culture."
+    ],
+    "preferredSkills": [
+        "Relevant experience in software engineering or a related discipline.",
+        "Demonstrated ability to code effectively and a solid understanding of software engineering principles.",
+        "Experience with CI/CD build/release pipeline management tools.",
+        "Proficiency in Web APIs and microservice architecture.",
+        "Experience with Python, C#, .NET, TypeScript, Angular, MySQL, MongoDB, or related databases.",
+        "Familiarity with GIT, Change Management, and application lifecycle management tools."
+
+
+
+
+    ],
+    "otherAttributes": [
+        "Ability to influence others without positional control.",
+        "Proficiency in basic computer technologies suitable for an internet-based company."
+
+    ],
+    "compensation": "Software Engineer, Full Stack Compensation"
+  },
+  {
+    "title": "Software Engineer, LLM",
+    "category": "Engineering & Technical",
+    "numOpenings": 3,
+    "description": "Software Engineer, LLM Description",
+    "responsibilities": [
+        "Software Engineer, LLM Responsibilities"
+    ],
+    "preferredSkills": [
+        "Software Engineer, LLM Preferred Skills"
+    ],
+    "otherAttributes": [
+        "Software Engineer, LLM Attributes"
+    ],
+    "compensation": "Software Engineer, LLM Compensation"
+  },
+  {
+    "title": "Software Engineer, Machine Learning",
+    "category": "Engineering & Technical",
+    "numOpenings": 2,
+    "description": "Software Engineer, Machine Learning Description",
+    "responsibilities": [
+        "Software Engineer, Machine Learning Responsibilities"
+    ],
+    "preferredSkills": [
+        "Software Engineer, Machine Learning Preferred Skills"
+    ],
+    "otherAttributes": [
+        "Software Engineer, Machine Learning Attributes"
+    ],
+    "compensation": "Software Engineer, Machine Learning Compensation"
+  },
+  {
+    "title": "Software Engineer, Model Inference",
+    "category": "Engineering & Technical",
+    "numOpenings": 2,
+    "description": "Software Engineer, Model Inference Description",
+    "responsibilities": [
+        "Software Engineer, Model Inference Responsibilities"
+    ],
+    "preferredSkills": [
+        "Software Engineer, Model Inference Preferred Skills"
+    ],
+    "otherAttributes": [
+        "Software Engineer, Model Inference Attributes"
+    ],
+    "compensation": "Software Engineer, Model Inference Compensation"
+  },
+  {
+    "title": "Software Engineer, Networking",
+    "category": "Engineering & Technical",
+    "numOpenings": 1,
+    "description": "Software Engineer, Networking Description",
+    "responsibilities": [
+        "Software Engineer, Networking Responsibilities"
+    ],
+    "preferredSkills": [
+        "Software Engineer, Networking Preferred Skills"
+    ],
+    "otherAttributes": [
+        "Software Engineer, Networking Attributes"
+    ],
+    "compensation": "Software Engineer, Networking Compensation"
+  },
+  {
+    "title": "Technical Writer",
+    "category": "Support & Documentation",
+    "numOpenings": 1,
+    "description": "Technical Writer Description",
+    "responsibilities": [
+        "Technical Writer Responsibilities"
+    ],
+    "preferredSkills": [
+        "Technical Writer Preferred Skills"
+    ],
+    "otherAttributes": [
+        "Technical Writer Attributes"
+    ],
+    "compensation": "Technical Writer Compensation"
+  }
+]

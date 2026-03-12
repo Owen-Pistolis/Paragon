@@ -1,0 +1,15 @@
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; // Adjust the height as needed
+}
+
+form {
+  width: 100%; // Adjust the width as needed
+  max-width: 1200px; // Optional: set a max-width
+  padding: 10px; // Optional: add padding for better appearance
+}
+mat-form-field{
+  align-items: center;
+}

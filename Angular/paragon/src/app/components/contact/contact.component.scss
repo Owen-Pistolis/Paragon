@@ -1,0 +1,12 @@
+.contactContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-family: "Roboto", sans-serif;
+    height: 100vh;
+}
+
+.contactContainer h2 {
+    margin-bottom: 20px;
+}

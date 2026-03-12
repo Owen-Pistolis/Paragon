@@ -1,0 +1,46 @@
+#formContainer{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    margin-top: 5%;
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+}
+.jobContainer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.jobDescription, .vacancies, .jobDuties, .jobPreferredSkills, .jobOtherAttributes, .jobCompensation{
+    text-align: center;
+}
+#title{
+    text-align: center;
+}
+#applicationEmail, #applicationFirstName, #applicationLastName, #applicationLinkedIn{
+    width: 50%;
+}
+@media (max-width: 768px){
+    #formContainer{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    #applicationEmail, #applicationFirstName, #applicationLastName, #applicationLinkedIn{
+        width: 100%;
+    }
+  }
+  @media (max-width: 440px) {
+    #formContainer{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    #applicationEmail, #applicationFirstName, #applicationLastName, #applicationLinkedIn{
+        width: 100%;
+    }
+  }
